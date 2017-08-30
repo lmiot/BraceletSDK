@@ -103,7 +103,7 @@ public class SunActivity extends Activity implements View.OnClickListener {
 
         super.onResume();
         Log.d("SunActivity", "恢复被调用");
-       // GetMonitorData();
+       GetMonitorData();
         ShowTarget();
 
     }
