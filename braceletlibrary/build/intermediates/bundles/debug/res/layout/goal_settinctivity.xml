@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:pro="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/id_about_title"
+        layout="@layout/title_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%h"
+        app:layout_widthPercent="100%w"
+        />
+
+
+
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/chart_gray"
+        >
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:id="@+id/id_goalSat_linear_exercise"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="40%h"
+            app:layout_widthPercent="100%w"
+            android:orientation="vertical"
+            >
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="20%h"
+                app:layout_widthPercent="100%w"
+                >
+                <TextView
+                    android:id="@+id/step_now"
+                    android:text="已完成："
+                    android:background="#eeeeee"
+                    android:textColor="#030303"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="40%h"
+                    app:layout_paddingLeftPercent="5%"
+                    />
+
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="80%h"
+                app:layout_widthPercent="100%w"
+
+                >
+                <View
+                    android:id="@+id/id_goalSat_pace_line"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="1%h"
+                    app:layout_widthPercent="30%w"
+                    android:background="@color/runCounts_line"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    app:layout_marginBottomPercent="60%h"
+                    />
+                <ImageView
+                    android:id="@+id/id_iv_goalSat_redFlag"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="10%w"
+                    app:layout_widthPercent="8%w"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/red_flag"
+                    android:layout_above="@id/id_goalSat_pace_line"
+                    android:layout_alignLeft="@id/id_goalSat_pace_line"
+                    />
+                <TextView
+                    android:id="@+id/id_tv_goalSat_pace_counts"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="15%h"
+                    app:layout_widthPercent="20%w"
+                    app:layout_textSizePercent="10%h"
+                    android:text="2000"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center|bottom"
+                    android:layout_above="@+id/id_goalSat_pace_line"
+                    android:layout_toRightOf="@+id/id_iv_goalSat_redFlag"
+
+                     />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="15%h"
+                    app:layout_widthPercent="20%w"
+                    app:layout_textSizePercent="10%h"
+                    android:text="步"
+                    android:layout_toRightOf="@id/id_goalSat_pace_line"
+                    android:layout_above="@id/id_goalSat_pace_line"
+                    />
+                <com.lmiot.BraceletDemo.View.BoundProgressView
+                    android:id="@+id/id_goalSat_exercise_bpv"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="50%h"
+                    app:layout_widthPercent="100%w"
+
+
+                    android:layout_centerVertical="true"
+                    pro:circle_radius="12dp"
+                    pro:pro_height="48dp"
+                    pro:hor_line_width="10dp"
+                    pro:stroke_width="0dp"
+                    android:layout_alignParentBottom="true"
+                    />
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:id="@+id/id_goalSat_linear_sleep"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="40%h"
+                    app:layout_widthPercent="100%w"
+                    android:orientation="vertical"
+                    >
+                    <com.zhy.android.percent.support.PercentRelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        app:layout_heightPercent="20%h"
+                        app:layout_widthPercent="100%w"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/sleep_now"
+                            android:text="已完成："
+                            android:background="#eeeeee"
+                            android:textColor="#030303"
+                            android:gravity="center_vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_heightPercent="100%h"
+                            app:layout_widthPercent="100%w"
+                            app:layout_textSizePercent="40%h"
+                            app:layout_paddingLeftPercent="5%"
+                            />
+
+                    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+                    <com.zhy.android.percent.support.PercentRelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        app:layout_heightPercent="80%h"
+                        app:layout_widthPercent="100%w"
+                        android:background="@color/chart_gray"
+                        >
+                        <View
+                            android:id="@+id/id_goalSat_oxygen_line"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_heightPercent="1%h"
+                            app:layout_widthPercent="30%w"
+                            android:background="@color/runCounts_line"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            app:layout_marginBottomPercent="60%h"
+                            />
+                        <ImageView
+                            android:id="@+id/id_iv_goalSat_oxygen_redFlag"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_heightPercent="10%w"
+                            app:layout_widthPercent="8%w"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/red_flag"
+                            android:layout_above="@id/id_goalSat_oxygen_line"
+                            android:layout_alignLeft="@id/id_goalSat_oxygen_line"
+                            />
+                        <TextView
+                            android:id="@+id/id_tv_goalSat_oxygen_counts"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_heightPercent="15%h"
+                            app:layout_widthPercent="20%w"
+                            app:layout_textSizePercent="10%h"
+                            android:text="4"
+                            android:textColor="@color/colorAccent"
+                            android:gravity="center|bottom"
+                            android:layout_above="@+id/id_goalSat_oxygen_line"
+                            android:layout_toRightOf="@+id/id_iv_goalSat_oxygen_redFlag"
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_heightPercent="15%h"
+                            app:layout_widthPercent="20%w"
+                            app:layout_textSizePercent="10%h"
+                            android:text="小时"
+                            android:layout_toRightOf="@id/id_goalSat_oxygen_line"
+                            android:layout_above="@id/id_goalSat_oxygen_line"
+                            />
+
+                        <com.lmiot.BraceletDemo.View.BoundProgressViewTwo
+                            android:id="@+id/bottom_bpv_time"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_heightPercent="50%h"
+                            app:layout_widthPercent="100%w"
+                            android:layout_centerVertical="true"
+                            pro:circle_radius="12dp"
+                            pro:pro_height="48dp"
+                            pro:hor_line_width="10dp"
+                            pro:stroke_width="0dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/chart_gray"
+                            />
+                    </com.zhy.android.percent.support.PercentRelativeLayout>
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>

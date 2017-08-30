@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.zhy.android.percent.support.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.andexample.miroid.com/apk/com.ng.mywrist_strap"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/id_about_title"
+        layout="@layout/title_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%h"
+        app:layout_widthPercent="100%w"
+        />
+    <com.lmiot.BraceletDemo.View.BlueStateView
+        android:id="@+id/id_blue_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="6%h"
+        app:layout_widthPercent="6%h"
+        app:layout_marginTopPercent="1%h"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/id_blue_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="62%h"
+        app:layout_widthPercent="100%w"
+        android:layout_below="@+id/id_about_title"
+        >
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            app:layout_heightPercent="18%h"
+            app:layout_widthPercent="100%w"
+            >
+
+            <ImageView
+                android:id="@+id/id_iv_sunat_sun"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/sun_solid"
+                app:layout_heightPercent="10%w"
+                app:layout_marginLeftPercent="5%w"
+                app:layout_marginRightPercent="5%w"
+                app:layout_widthPercent="10%w"
+                />
+
+            <ImageView
+                android:id="@+id/id_iv_sunat_moon"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/id_iv_sunat_sun"
+                android:src="@drawable/moon_hollow"
+                app:layout_heightPercent="8%w"
+                app:layout_marginLeftPercent="2%w"
+                app:layout_marginRightPercent="5%w"
+                app:layout_widthPercent="8%w"/>
+
+            <ImageView
+                android:id="@+id/id_iv_sunat_trend"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/trend"
+                android:visibility="visible"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="9%w"
+                app:layout_marginRightPercent="5%w"
+                app:layout_widthPercent="8%w"
+                />
+
+            <ImageView
+                android:id="@+id/id_iv_sunat_device"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@id/id_iv_sunat_trend"
+                android:src="@drawable/device"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/id_iv_sunat_clock"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@id/id_iv_sunat_device"
+                android:src="@drawable/clock"
+                />
+            <ImageView
+                android:id="@+id/id_iv_help"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@id/id_iv_sunat_clock"
+                android:src="@drawable/bracelet_help"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:id="@+id/id_tv_sunat_poewr_percent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="75%"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="30%h"
+                app:layout_textSizePercent="25%h"
+                app:layout_widthPercent="10%w"
+                app:layout_marginRightPercent="13%w"
+                />
+
+            <ImageView
+                android:id="@+id/id_iv_sunat_powr_show"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/id_tv_sunat_poewr_percent"
+                android:background="@drawable/power4"
+                app:layout_heightPercent="3.5%w"
+                app:layout_marginLeftPercent="5%w"
+                app:layout_marginRightPercent="2%w"
+                app:layout_widthPercent="7%w"
+                />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%h"
+            app:layout_widthPercent="100%w"
+            >
+
+            <com.lmiot.BraceletDemo.View.RoundProgressBar
+                android:id="@+id/id_rp_sunat_circle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android_custom:roundColor="#4f4f4f"
+                android_custom:roundProgressColor="@color/colorAccent"
+                android_custom:roundWidth="3dip"
+                android_custom:textColor="@color/colorAccent"
+                android_custom:textIsDisplayable="true"
+                android_custom:textSize="35sp"
+                app:layout_heightPercent="40%w"
+                app:layout_widthPercent="40%w"
+                />
+
+
+            <TextView
+                android:id="@+id/id_tv_sunat_finish_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="35dp"/>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:id="@+id/id_tv_sunat_pace_counts_li"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignBottom="@+id/id_rp_sunat_circle"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                app:layout_heightPercent="10%h"
+                app:layout_widthPercent="40%w">
+
+                <TextView
+                    android:id="@+id/id_tv_sun_target"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="目标"
+                    app:layout_heightPercent="100%h"
+                    app:layout_textSizePercent="40%h"
+                    app:layout_widthPercent="30%w"
+                    />
+
+                <TextView
+                    android:id="@+id/id_tv_sunat_pace_counts"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="8000"
+                    android:textColor="@color/colorAccent"
+                    app:layout_heightPercent="100%h"
+                    app:layout_textSizePercent="40%h"
+                    app:layout_widthPercent="30%w"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text=" 步"
+                    app:layout_heightPercent="100%h"
+                    app:layout_textSizePercent="40%h"
+
+                    app:layout_widthPercent="20%w"
+                    />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <View
+                android:id="@+id/paceCounts_line"
+                android:layout_width="40dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/runCounts_line"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/id_tv_sunat_finish_percent"
+                android:layout_centerHorizontal="true"
+                android:text="目标完成"
+                app:layout_textSizePercent="5%h"
+
+                />
+
+
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:id="@+id/id_tv_sunat_heart_rate_img"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_heightPercent="21%w"
+            app:layout_marginLeftPercent="5%w"
+            app:layout_paddingTopPercent="3%h"
+            app:layout_widthPercent="21%w"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/heart_rate"
+                app:layout_heightPercent="50%w"
+                app:layout_widthPercent="50%w"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="实时心率"
+                app:layout_heightPercent="30%h"
+                app:layout_textSizePercent="20%h"
+                app:layout_widthPercent="80%w"
+                />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:id="@+id/id_iv_sunat_sports"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_heightPercent="21%w"
+            app:layout_paddingTopPercent="3%h"
+            app:layout_widthPercent="21%w"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/sport"
+                app:layout_heightPercent="45%w"
+                app:layout_widthPercent="45%w"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="运动心率"
+                app:layout_heightPercent="30%h"
+                app:layout_textSizePercent="20%h"
+                app:layout_widthPercent="80%w"
+                />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:id="@+id/id_tv_sunat_test_tired_img"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_heightPercent="21%w"
+            app:layout_marginRightPercent="5%w"
+            app:layout_paddingTopPercent="3%h"
+            app:layout_widthPercent="21%w"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/test_picture"
+                app:layout_heightPercent="45%w"
+                app:layout_widthPercent="45%w"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="疲劳测试"
+                app:layout_heightPercent="30%h"
+                app:layout_textSizePercent="20%h"
+                app:layout_widthPercent="80%w"
+                />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:id="@+id/id_sun_rate_detail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_heightPercent="30%h"
+        app:layout_widthPercent="100%w"
+        android:layout_below="@+id/id_blue_main"
+
+        >
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="20%h"
+            app:layout_widthPercent="100%w"
+            >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/color_mydevice_background"/>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+
+                android:id="@+id/id_iv_sunat_turndown_arrow"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                app:layout_heightPercent="100%h"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="80%w"
+                >
+
+                <TextView
+                    android:id="@+id/id_tv_sunat_center_date"
+                    android:text="2016-1-28"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="40%w"
+                    app:layout_textSizePercent="50%h"
+                    android:gravity="center"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="6%w"
+                    android:src="@drawable/bottom_arrow"/>
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="20%h"
+            app:layout_widthPercent="100%w"
+            >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/color_mydevice_background"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="活动时长"
+                app:layout_heightPercent="100%h"
+                app:layout_paddingLeftPercent="5%w"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="38%w"
+                />
+
+
+            <TextView
+                android:id="@+id/id_tv_sunat_pacetime"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="0小时"
+                app:layout_heightPercent="100%h"
+                app:layout_marginLeftPercent="40%w"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="30%w"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/exercise_duration_picture"
+                app:layout_heightPercent="80%h"
+                app:layout_marginRightPercent="5%"
+                app:layout_widthPercent="10%w"/>
+
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="20%h"
+            app:layout_widthPercent="100%w"
+            >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/color_mydevice_background"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="总步数   "
+                app:layout_heightPercent="100%h"
+                app:layout_paddingLeftPercent="5%w"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="38%w"
+                />
+
+            <TextView
+                android:id="@+id/id_tv_sunat_runcouts"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="0步"
+                app:layout_heightPercent="100%h"
+                app:layout_marginLeftPercent="40%w"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="30%w"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/pace_small_green"
+                app:layout_heightPercent="80%h"
+                app:layout_marginRightPercent="5%"
+                app:layout_widthPercent="10%w"/>
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="20%h"
+            app:layout_widthPercent="100%w"
+            >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/color_mydevice_background"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="热量消耗"
+                app:layout_heightPercent="100%h"
+                app:layout_paddingLeftPercent="5%w"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="38%w"
+                />
+
+            <TextView
+                android:id="@+id/id_tv_sunat_heatconsumption"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="0千卡"
+                app:layout_heightPercent="100%h"
+                app:layout_marginLeftPercent="40%w"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="30%w"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/consumption_small_green"
+                app:layout_heightPercent="80%h"
+                app:layout_marginRightPercent="5%"
+                app:layout_widthPercent="10%w"/>
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="20%h"
+            app:layout_widthPercent="100%w"
+            >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/color_mydevice_background"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="总里数"
+                app:layout_heightPercent="100%h"
+                app:layout_paddingLeftPercent="5%w"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="38%w"
+                />
+
+            <TextView
+                android:id="@+id/id_tv_sunat_totalcounts"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="0米"
+                app:layout_heightPercent="100%h"
+                app:layout_marginLeftPercent="40%w"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="30%w"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/distance_picture"
+                app:layout_heightPercent="80%h"
+                app:layout_marginRightPercent="5%"
+                app:layout_widthPercent="10%w"/>
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentRelativeLayout>

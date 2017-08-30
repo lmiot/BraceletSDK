@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.zhy.android.percent.support.PercentRelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include
+        android:id="@+id/id_about_title"
+        layout="@layout/title_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%h"
+        app:layout_widthPercent="100%w"
+        />
+
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/id_about_title"
+        >
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="50%h"
+            app:layout_widthPercent="100%w"
+            android:id="@+id/rate_result_id"
+            >
+
+            <ImageView
+                android:id="@+id/id_iv_heartRDat_trend"
+                android:src="@drawable/trend"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="26dp"
+                android:layout_marginTop="26dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="10%w"
+                app:layout_widthPercent="10%w"
+                android:visibility="invisible"
+
+                />
+            <TextView
+                android:id="@+id/id_tv_heartRDat_average"
+                android:gravity="center"
+                android:text="平均心率"
+                android:layout_marginTop="18dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="10%h"
+                app:layout_widthPercent="30%w"
+                app:layout_textSizePercent="6%h"
+                android:layout_below="@+id/id_iv_heartRDat_trend"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:layout_toLeftOf="@id/id_tv_heartRDat_average"
+                android:layout_alignTop="@id/id_tv_heartRDat_average"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="9%w"
+                app:layout_widthPercent="9%w"
+                android:src="@drawable/heart_green"/>
+
+            <TextView
+                android:id="@+id/id_tv_heartRDat_average_number"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="15%h"
+                app:layout_widthPercent="20%w"
+                app:layout_textSizePercent="12%h"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="0"
+                android:textColor="#000000"
+                android:layout_below="@+id/id_tv_heartRDat_average"
+                android:layout_centerHorizontal="true" />
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="15%h"
+                app:layout_widthPercent="20%w"
+                app:layout_textSizePercent="6%h"
+                android:gravity="left|center"
+                android:layout_toRightOf="@id/id_tv_heartRDat_average_number"
+                android:text="BMP"
+                android:layout_alignTop="@id/id_tv_heartRDat_average_number"
+                />
+            <TextView
+                android:id="@+id/id_tv_heartRDat_exercise"
+                android:layout_marginTop="18dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="10%h"
+                app:layout_widthPercent="30%w"
+                app:layout_textSizePercent="6%h"
+                android:gravity="center"
+                android:text="运动强度"
+                android:layout_below="@+id/id_tv_heartRDat_average_number"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="9%w"
+                app:layout_widthPercent="9%w"
+                android:layout_toLeftOf="@id/id_tv_heartRDat_exercise"
+                android:layout_alignTop="@id/id_tv_heartRDat_exercise"
+                android:src="@drawable/exercise_duration_picture"/>
+            <TextView
+                android:id="@+id/id_tv_heartRDat_exercise_level"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="10%h"
+                app:layout_widthPercent="30%w"
+                app:layout_textSizePercent="6%h"
+                android:text="非常低"
+                android:layout_below="@+id/id_tv_heartRDat_exercise"
+                android:layout_centerHorizontal="true" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%h"
+            app:layout_widthPercent="100%w"
+            android:layout_below="@+id/rate_result_id"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="@color/color_mydevice_background" />
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="20%h"
+                app:layout_widthPercent="100%w"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="35%h"
+                    android:gravity="center_vertical"
+                    app:layout_paddingLeftPercent="5%w"
+                    android:text="总时长"/>
+                <TextView
+                    android:id="@+id/id_tv_hearRDat_pacetime"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="35%h"
+                    android:gravity="center_vertical"
+                    app:layout_paddingLeftPercent="45%w"
+                    android:text="0小时"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="9%w"
+                    android:layout_alignParentRight="true"
+                    app:layout_marginRightPercent="5%w"
+                    android:src="@drawable/time"
+                    />
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="@color/color_mydevice_background" />
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="20%h"
+                app:layout_widthPercent="100%w"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="35%h"
+                    android:gravity="center_vertical"
+                    app:layout_paddingLeftPercent="5%w"
+                    android:text="热量消耗"/>
+                <TextView
+                    android:id="@+id/id_tv_heartRDat_heartcomsuption"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="35%h"
+                    android:gravity="center_vertical"
+                    app:layout_paddingLeftPercent="45%w"
+                    android:text="0千卡"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="9%w"
+                    android:layout_alignParentRight="true"
+                    app:layout_marginRightPercent="5%w"
+                    android:src="@drawable/consumption_small_green"
+                    />
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+
+
+
+
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="@color/color_mydevice_background" />
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="20%h"
+                app:layout_widthPercent="100%w"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="35%h"
+                    android:gravity="center_vertical"
+                    app:layout_paddingLeftPercent="5%w"
+                    android:text="总步数"/>
+                <TextView
+                    android:id="@+id/id_tv_heartRDat_tatalcounts"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="35%h"
+                    android:gravity="center_vertical"
+                    app:layout_paddingLeftPercent="45%w"
+                    android:text="0步"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="9%w"
+                    android:layout_alignParentRight="true"
+                    app:layout_marginRightPercent="5%w"
+                    android:src="@drawable/pace_small_green"
+                    />
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="@color/color_mydevice_background" />
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="20%h"
+                app:layout_widthPercent="100%w"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="35%h"
+                    android:gravity="center_vertical"
+                    app:layout_paddingLeftPercent="5%w"
+                    android:text="平均速度"/>
+                <TextView
+                    android:id="@+id/id_tv_heartRDat_averagePace"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="100%w"
+                    app:layout_textSizePercent="35%h"
+                    android:gravity="center_vertical"
+                    app:layout_paddingLeftPercent="45%w"
+                    android:text="0步/秒"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="100%h"
+                    app:layout_widthPercent="9%w"
+                    android:layout_alignParentRight="true"
+                    app:layout_marginRightPercent="5%w"
+                    android:src="@drawable/clock_quick"
+                    />
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+</com.zhy.android.percent.support.PercentRelativeLayout>

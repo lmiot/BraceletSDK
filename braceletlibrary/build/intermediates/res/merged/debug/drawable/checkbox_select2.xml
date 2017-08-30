@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/togbtn_open"  android:state_checked="true"/>
+
+    <item android:drawable="@drawable/togbtn_close" android:state_checked="false" />
+
+    <item android:drawable="@drawable/togbtn_close"></item>
+
+    <item android:drawable="@drawable/togbtn_open" android:state_checkable="false"></item>
+
+</selector>

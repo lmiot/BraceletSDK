@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <color name="a">#40c318</color>
+    <color name="b">#0090fc</color>
+    <color name="background_gray">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="black3">#8e8e8e</color>
+    <color name="c">#f98302</color>
+    <color name="chart_gray">#E7E7E7</color>
+    <color name="clockat_remind_color">#262626</color>
+    <color name="color01">#682EFF</color>
+    <color name="color02">#EE0DE7</color>
+    <color name="color03">#0ED800</color>
+    <color name="color04">#FFFFFF</color>
+    <color name="color05">#FE0000</color>
+    <color name="color06">#F19904</color>
+    <color name="color07">#FAEF01</color>
+    <color name="colorAccent">#50B5DA</color>
+    <color name="colorPrimary">#50B5DA</color>
+    <color name="colorPrimaryDark">#50B5DA</color>
+    <color name="color_choosetest_change_back">#D1D1D1</color>
+    <color name="color_mydevice_background">#e7e7e7</color>
+    <color name="gray_light2">#33f0f0f0</color>
+    <color name="gray_light3">#00f0f0f0</color>
+    <color name="gray_total">#909090</color>
+    <color name="gray_total2">#f0f0f0</color>
+    <color name="green">#FF34A350</color>
+    <color name="grid">#888888</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="runCounts_line">#878787</color>
+    <color name="sleep_deep">#006cfa</color>
+    <color name="sleep_light">#39c1cc</color>
+    <color name="wake">#e57400</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="BoundProgressView"><attr format="dimension" name="hor_line_width"/><attr format="dimension" name="circle_radius"/><attr format="dimension" name="pro_height"/><attr format="dimension" name="stroke_width"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ColorCircleProgressView"><attr format="color" name="Color01"/><attr format="color" name="Color02"/><attr format="color" name="Color03"/><attr format="color" name="Color04"/><attr format="color" name="Color05"/><attr format="color" name="Color06"/><attr format="color" name="Color07"/><attr format="integer" name="ViewAngle"/><attr format="integer" name="StartAngle"/><attr format="integer" name="ViewPadding"/><attr format="integer" name="StrokeWith"/><attr format="boolean" name="IsRound"/><attr format="color" name="PointColor"/><attr format="integer" name="PointRadio"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="RippleBackground"><attr format="color" name="rb_color"/><attr format="dimension" name="rb_strokeWidth"/><attr format="dimension" name="rb_radius"/><attr format="integer" name="rb_duration"/><attr format="integer" name="rb_rippleAmount"/><attr format="float" name="rb_scale"/><attr format="enum" name="rb_type">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="RotateTextView"><attr format="dimension" name="degree"/></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="integer" name="Roundmax"/><attr format="boolean" name="textIsDisplayable"/><attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="SeekArc"><attr format="reference" name="thumb"/><attr format="dimension" name="thumbOffset"/><attr format="integer" name="max"/><attr format="dimension" name="progressWidth"/><attr format="dimension" name="arcWidth"/><attr format="integer" name="progress"/><attr format="integer" name="rotation"/><attr format="integer" name="startAngle"/><attr format="integer" name="sweepAngle"/><attr format="color" name="arcColor"/><attr format="color" name="progressColor"/><attr format="boolean" name="roundEdges"/><attr format="boolean" name="touchInside"/><attr format="boolean" name="clockwise"/><attr format="boolean" name="isProgressColorGradient"/></declare-styleable>
+    <declare-styleable name="SeekArcTheme"><attr format="reference" name="seekArcStyle"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="rippleRadius">64dp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <drawable name="gray2">#6c6c6c</drawable>
+    <drawable name="green2">#50B5DA</drawable>
+    <drawable name="green3">#8050B5DA</drawable>
+    <string name="app_name">BraceletDemo</string>
+    <string name="eight">8</string>
+    <string name="eight_thousand">8000</string>
+    <string name="eleven">11</string>
+    <string name="eleven_thousand">11000</string>
+    <string name="five">5</string>
+    <string name="five_thousand">5000</string>
+    <string name="four">4</string>
+    <string name="fourteen_thousand">14000</string>
+    <string name="heatnums">热量消耗（千卡）</string>
+    <string name="nine">9</string>
+    <string name="seven">7</string>
+    <string name="seventeen_thousand">17000</string>
+    <string name="six">6</string>
+    <string name="tatalpace">总步数</string>
+    <string name="ten">10</string>
+    <string name="twelve">12</string>
+    <string name="twenty_thousand">20000</string>
+    <string name="two_thousand">2000</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyAppTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MyCheck_Box" parent="@android:style/Widget.CompoundButton.CheckBox">
+
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/checkbox_select</item>
+
+    </style>
+    <style name="MyCheck_Box2" parent="@android:style/Widget.CompoundButton.CheckBox">
+
+        <item name="android:button">@drawable/checkbox_select2</item>
+
+
+    </style>
+    <style name="MyLight_select" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/light_select</item>
+    </style>
+    <style name="MybathtubCheck_Box1" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox1</item>
+    </style>
+    <style name="MybathtubCheck_Box2" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox2</item>
+    </style>
+    <style name="MybathtubCheck_Box3" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox3</item>
+    </style>
+    <style name="MybathtubCheck_Box4" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox4</item>
+    </style>
+    <style name="MybathtubCheck_Box5" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox5</item>
+    </style>
+    <style name="MyhouseCheck_Box" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox1</item>
+    </style>
+    <style name="MyhouseCheck_Box2" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox2</item>
+    </style>
+    <style name="MyhouseCheck_Box3" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox3</item>
+    </style>
+    <style name="MyhouseCheck_Box4" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox4</item>
+    </style>
+    <style name="MyhouseCheck_Box5" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox5</item>
+    </style>
+    <style name="MyhouseCheck_Box51" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox51</item>
+    </style>
+    <style name="MyhouseCheck_Box6" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox6</item>
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_selector</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

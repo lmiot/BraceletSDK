@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/gray_light3">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center|right"
+            android:layout_weight="0.3">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:text="深度睡眠"/>
+            <TextView
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:background="@color/sleep_deep"
+                android:layout_height="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:text="浅度睡眠"/>
+            <TextView
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:background="@color/sleep_light"
+                android:layout_height="10dp"/>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+            <TextView
+                android:id="@+id/text123"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:text="清醒"/>
+            <TextView
+                android:layout_toRightOf="@id/text123"
+                android:layout_width="30dp"
+                android:layout_centerVertical="true"
+
+                android:background="@color/wake"
+                android:layout_height="10dp"/>
+            <TextView
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="left"
+                android:textSize="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="单位：分钟"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/columnar_chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.87"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>

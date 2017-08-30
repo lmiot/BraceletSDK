@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.TiredTestactivity">
+
+
+    <include
+        android:id="@+id/id_about_title"
+        layout="@layout/title_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%h"
+        app:layout_widthPercent="100%w"
+        />
+    <com.lmiot.BraceletDemo.View.BlueStateView
+        android:id="@+id/id_blue_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="6%h"
+        app:layout_widthPercent="6%h"
+        app:layout_marginTopPercent="1%h"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/id_about_title"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.46"
+            android:background="#eeeeee">
+
+            <TextView
+                android:id="@+id/id_tv_TiredTat_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/id_tiredTat_roundProgressBar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:text="START"
+                android:textColor="@color/colorAccent"
+                android:textSize="19sp" />
+
+            <LinearLayout
+                android:id="@+id/id_tiredTat_liner_test"
+                android:layout_width="match_parent"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/id_tiredTat_roundProgressBar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:src="@drawable/heart_green"
+                    />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="23dp"
+                    android:gravity="center|right"
+                    android:text="BPM"
+                    android:textColor="@color/colorAccent"
+                     />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/id_tv_tiredTat_BPM_number"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/id_tiredTat_liner_test"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/id_tv_tiredTat_tip_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_tv_TiredTat_start"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="轻触开始测量"
+                android:textSize="10sp" />
+
+            <com.lmiot.BraceletDemo.View.RoundProgressBar
+                android:id="@+id/id_tiredTat_roundProgressBar"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android_custom:roundColor="#d0d0d0"
+                android_custom:roundProgressColor="#8a50B5DA"
+                android_custom:roundWidth="4dp"
+                android_custom:style="FILL"
+                android_custom:textColor="@color/colorAccent"
+                android_custom:textIsDisplayable="false"
+                android_custom:textSize="35sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="35dp"
+                android:gravity="center"
+                android:text="测试时间为两分钟，请耐心等候"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="0.54">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_mydevice_background" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="43dp"
+                    android:background="@color/color_mydevice_background" />
+
+                <CheckBox
+                    android:id="@+id/id_cb_tiredTat_sevenDay"
+                    android:layout_width="50dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/selector_date"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:paddingTop="3dp"
+                    android:text="7日"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/id_cb_tiredTat_fifthteenDay"
+                    android:layout_width="50dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/id_cb_tiredTat_sevenDay"
+                    android:background="@drawable/selector_date"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingTop="3dp"
+                    android:text="15日"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/id_cb_tiredTat_thirtyDay"
+                    android:layout_width="50dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/id_cb_tiredTat_fifthteenDay"
+                    android:background="@drawable/selector_date"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingTop="3dp"
+                    android:text="30日"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/id_vp_tiredTat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v4.view.ViewPager>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</com.zhy.android.percent.support.PercentRelativeLayout>

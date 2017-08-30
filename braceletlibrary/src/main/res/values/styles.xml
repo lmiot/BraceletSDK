@@ -1,0 +1,152 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+
+    <style name="MyAppTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="MyLight_select" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/light_select</item>
+    </style>
+
+    <style name="MyCheck_Box" parent="@android:style/Widget.CompoundButton.CheckBox">
+
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/checkbox_select</item>
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+    <style name="MyhouseCheck_Box" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox1</item>
+    </style>
+
+
+
+
+
+
+
+    <style name="MyhouseCheck_Box2" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox2</item>
+    </style>
+
+    <style name="MyhouseCheck_Box3" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox3</item>
+    </style>
+
+    <style name="MyhouseCheck_Box4" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox4</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+    <style name="MyhouseCheck_Box5" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox5</item>
+    </style>
+    <style name="MyhouseCheck_Box51" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox51</item>
+    </style>
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_selector</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+    <declare-styleable name="RotateTextView">
+        <attr name="degree" format="dimension"/>
+    </declare-styleable>
+
+
+    <style name="MybathtubCheck_Box1" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox1</item>
+    </style>
+    <style name="MybathtubCheck_Box2" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox2</item>
+    </style>
+    <style name="MybathtubCheck_Box3" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox3</item>
+    </style>
+    <style name="MybathtubCheck_Box4" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox4</item>
+    </style>
+    <style name="MybathtubCheck_Box5" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bathtub_checkbox5</item>
+    </style>
+    <style name="MyhouseCheck_Box6" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/house_checkbox6</item>
+    </style>
+    <style name="MyCheck_Box2" parent="@android:style/Widget.CompoundButton.CheckBox">
+
+        <item name="android:button">@drawable/checkbox_select2</item>
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

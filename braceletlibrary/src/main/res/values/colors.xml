@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#50B5DA</color>
+    <color name="colorPrimaryDark">#50B5DA</color>
+    <color name="colorAccent">#50B5DA</color>
+    <color name="background_gray">#EEEEEE</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="chart_gray">#E7E7E7</color>
+
+    <color name="green">#FF34A350</color>
+
+    <color name="gray_light2">#33f0f0f0</color>
+    <color name="gray_light3">#00f0f0f0</color>
+    <color name="gray_total">#909090</color>
+    <drawable name="gray2">#6c6c6c</drawable>
+    <drawable name="green2">#50B5DA</drawable>
+    <drawable name="green3">#8050B5DA</drawable>
+
+    <color name="color01">#682EFF</color>
+    <color name="color02">#EE0DE7</color>
+    <color name="color03">#0ED800</color>
+    <color name="color04">#FFFFFF</color>
+    <color name="color05">#FE0000</color>
+    <color name="color06">#F19904</color>
+    <color name="color07">#FAEF01</color>
+
+
+    <!--手环-->
+    <color name="black3">#8e8e8e</color>
+    <color name="gray_total2">#f0f0f0</color>
+    <color name="sleep_deep">#006cfa</color>
+    <color name="sleep_light">#39c1cc</color>
+    <color name="wake">#e57400</color>
+    <color name="a">#40c318</color>
+    <color name="b">#0090fc</color>
+    <color name="c">#f98302</color>
+    <color name="grid">#888888</color>
+    <color name="color_choosetest_change_back">#D1D1D1</color>
+    <color name="clockat_remind_color">#262626</color>
+    <color name="color_mydevice_background">#e7e7e7</color>
+    <color name="runCounts_line">#878787</color>
+
+
+
+
+
+
+
+
+</resources>

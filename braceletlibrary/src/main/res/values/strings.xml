@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BraceletDemo</string>
+
+
+    <!-- Menu items -->
+
+    <string name="two_thousand">2000</string>
+    <string name="five_thousand">5000</string>
+    <string name="eight_thousand">8000</string>
+    <string name="eleven_thousand">11000</string>
+    <string name="fourteen_thousand">14000</string>
+    <string name="seventeen_thousand">17000</string>
+    <string name="twenty_thousand">20000</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="eleven">11</string>
+    <string name="twelve">12</string>
+    <string name="tatalpace">总步数</string>
+    <string name="heatnums">热量消耗（千卡）</string>
+</resources>

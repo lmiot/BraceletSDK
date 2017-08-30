@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/title_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%h"
+        app:layout_widthPercent="100%w"
+        />
+
+
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="60%h"
+            app:layout_widthPercent="100%w"
+            android:orientation="vertical"
+            >
+
+            <CheckBox
+                android:id="@+id/id_cb_chooseT_pace"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="15%h"
+                app:layout_widthPercent="100%"
+                android:textSize="15sp"
+                app:layout_paddingLeftPercent="8%w"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_choosetest_background_change"
+                android:button="@null"
+                android:text="徒步"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="#eeeeee"/>
+
+            <CheckBox
+                android:id="@+id/id_cb_chooseT_run"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="15%h"
+                app:layout_widthPercent="100%"
+                android:textSize="15sp"
+                app:layout_paddingLeftPercent="8%w"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_choosetest_background_change"
+                android:button="@null"
+                android:text="跑步"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="#eeeeee"/>
+
+            <CheckBox
+                android:id="@+id/id_cb_chooseT_climb"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="15%h"
+                app:layout_widthPercent="100%"
+                android:textSize="15sp"
+                app:layout_paddingLeftPercent="8%w"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_choosetest_background_change"
+                android:button="@null"
+                android:text="爬山"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="#eeeeee"/>
+            <CheckBox
+                android:id="@+id/id_cb_chooseT_ballType"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="15%h"
+                app:layout_widthPercent="100%"
+                android:textSize="15sp"
+                app:layout_paddingLeftPercent="8%w"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_choosetest_background_change"
+                android:button="@null"
+                android:text="球类运动"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="#eeeeee"/>
+            <CheckBox
+                android:id="@+id/id_cb_chooseT_power"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="15%h"
+                app:layout_widthPercent="100%"
+                android:textSize="15sp"
+                app:layout_paddingLeftPercent="8%w"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_choosetest_background_change"
+                android:button="@null"
+                android:text="力量训练"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="#eeeeee"/>
+
+            <CheckBox
+                android:id="@+id/id_cb_chooseT_oxygen"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="15%h"
+                app:layout_widthPercent="100%"
+              android:textSize="15sp"
+                app:layout_paddingLeftPercent="8%w"
+                android:gravity="center_vertical"
+                android:background="@drawable/selector_choosetest_background_change"
+                android:button="@null"
+                android:text="有氧运动"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="0.5%h"
+                app:layout_widthPercent="100%w"
+                android:background="#eeeeee"/>
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="40%h"
+            app:layout_widthPercent="100%w"
+            android:background="@color/background_gray"
+            >
+            <Button
+                android:id="@+id/id_bt_chooseTat_start_test"
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="25%h"
+                app:layout_widthPercent="100%w"
+                android:textSize="15sp"
+                android:text="开始测试"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/colorAccent"
+                />
+
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout >
