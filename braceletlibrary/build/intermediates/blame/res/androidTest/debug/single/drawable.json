@@ -104,6 +104,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\consumption_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\consumption_selector.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
@@ -132,6 +136,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pace_small_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\pace_small_selector.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_clock_activity_sms.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_clock_activity_sms.xml"
     },
@@ -158,6 +166,10 @@
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sleep_small_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\sleep_small_selector.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox6.xml",
@@ -206,6 +218,10 @@
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\heart_rate_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\heart_rate_selector.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",

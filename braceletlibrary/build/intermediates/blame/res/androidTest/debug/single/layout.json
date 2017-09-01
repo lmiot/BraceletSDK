@@ -252,6 +252,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fragment_heart_rate.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\fragment_heart_rate.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_media_custom.xml"
     },

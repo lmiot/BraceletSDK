@@ -3,6 +3,7 @@ package com.lmiot.BraceletDemo.Database;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 /**
  * Created by ming on 2016/3/19.
@@ -10,8 +11,14 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class BraceletDBHelper extends SQLiteOpenHelper {
     private static final String MYDB_NAME = "sport.db";
     private static final int MyVersion=1;
+    //创建HeartRate表
+    private static final String CREATE_TABLE_HEARTRATE="create table if not exists heartRateData " +
+            "( sessionID VARCHAR(45)," +
+            "date VARCHAR(45)," +
+            "day_time VARCHAR(45)," +
+            "heart_rate INTEGER)" ;
     //创建sportData表
-    private static final String CREATE_TABLE_SPORTSDATA="CREATE TABLE IF NOT EXISTS sportData " +
+    private static final String CREATE_TABLE_SPORTSDATA="create table if not exists sportData " +
             "( sessionID VARCHAR(45)," +
             "date VARCHAR(45)," +
             "day_time VARCHAR(45)," +
@@ -56,10 +63,16 @@ public class BraceletDBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+
+        Log.d("BraceletDBHelper", CREATE_TABLE_SPORTSDATA);
+        Log.d("BraceletDBHelper", CREATE_TABLE_HEARTRATE);
+
+
         db.execSQL(CREATE_TABLE_SPORTSDATA);
         db.execSQL(CREATE_TABLE_SLEEPDATA);
         db.execSQL(CREATE_TABLE_RATEDATA);
         db.execSQL(CREATE_TABLE_TIREDDATA);
+        db.execSQL(CREATE_TABLE_HEARTRATE);
 
     }
 
@@ -73,4 +86,5 @@ public class BraceletDBHelper extends SQLiteOpenHelper {
 
 
     }
+
 }

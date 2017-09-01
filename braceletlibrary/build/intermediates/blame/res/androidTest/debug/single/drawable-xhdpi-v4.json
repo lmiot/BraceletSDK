@@ -300,12 +300,12 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\bathtub_bottom_img_1.png"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\bathtub_light_switch_press01.png",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\bathtub_light_switch_press01.png"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",

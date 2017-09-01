@@ -55,6 +55,12 @@ public class TimeUtils {
         String time = formatter.format(curDate);
         return time;
     }
+    public static String getHeartRateCurrentTime() {
+        SimpleDateFormat formatter = new SimpleDateFormat("HH");
+        Date curDate = new Date(System.currentTimeMillis());//获取当前时间
+        String time = formatter.format(curDate);
+        return time;
+    }
     public static String getCurrentAgeDate() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         String date = sdf.format(new java.util.Date());

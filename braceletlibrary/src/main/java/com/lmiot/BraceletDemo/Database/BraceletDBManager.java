@@ -6,6 +6,8 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import com.google.gson.Gson;
+import com.lmiot.BraceletDemo.Bean.HeartRateData;
 import com.lmiot.BraceletDemo.Bean.RateDataInfo;
 import com.lmiot.BraceletDemo.Bean.SleepDataInfo;
 import com.lmiot.BraceletDemo.Bean.SportDataInfo;
@@ -15,6 +17,8 @@ import com.lmiot.BraceletDemo.Util.TimeUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.lmiot.BraceletDemo.R.color.a;
 
 /**
  * Created by ming on 2016/3/19.
@@ -27,6 +31,98 @@ public class BraceletDBManager {
         braceletDBHelper=new BraceletDBHelper(context);
         db=braceletDBHelper.getWritableDatabase();
     }
+    //heartRateData表的增加功能
+    public void saveHeartRateDataInfo(HeartRateData heartRateData){
+        Log.d("BraceletDBManager", "保存心率："+new Gson().toJson(heartRateData));
+        db.beginTransaction();
+        try {
+
+
+            db.execSQL("INSERT INTO heartRateData(sessionID, date, day_time,heart_rate) VALUES(?,?,?,?)",new Object[]{
+                    heartRateData.getSessionID(), heartRateData.getDate(),
+                    heartRateData.getTime(), heartRateData.getHeartRate(),
+                    });
+            db.setTransactionSuccessful();
+            LogUtils.d("sqlsucceed", "heartRateData增加数据成功");
+        }catch (SQLException e) {
+            LogUtils.d("myerror" + "heartRateData增加数据不成功"+e.getMessage());
+        }
+            db.endTransaction();
+
+    }
+    //heartRateData表的更新
+    public void updateHeartRateDataInfo(HeartRateData heartRateData){
+        Log.d("BraceletDBManager", "更新心率："+new Gson().toJson(heartRateData));
+        db.beginTransaction();
+        try {
+            db.execSQL("update heartRateData set sessionID=?, date=?, day_time=?,heart_rate=? where day_time=?"
+                    ,new Object[]{
+                            heartRateData.getSessionID(), heartRateData.getDate(),
+                            heartRateData.getTime(), heartRateData.getHeartRate(),
+                            heartRateData.getTime()});
+            db.setTransactionSuccessful();
+            LogUtils.d("sqlsucceed", "HeartRate修改数据成功");
+        } catch (SQLException e) {
+            LogUtils.d("myerror" + "HeartRate修改数据不成功");
+        }
+        db.endTransaction();
+
+    }
+
+
+
+
+    //根据时间来查找心率数据
+    public HeartRateData findHeartRateDataByTimer(String date,String time ){
+        HeartRateData heartRateData = new HeartRateData();
+        try {
+            Cursor cursor = db.rawQuery("select * from heartRateData where date=? and day_time = ?", new String[]{date,time});
+            while (cursor.moveToNext()) {
+                heartRateData.setSessionID(cursor.getString(0));
+                heartRateData.setDate(cursor.getString(1));
+                heartRateData.setTime(cursor.getString(2));
+                heartRateData.setHeartRate(cursor.getInt(3));
+
+            }
+            LogUtils.d("sqlsucceed", "HeartRate查询数据成功");
+            cursor.close();
+            return heartRateData;
+        }catch (SQLException e){
+            LogUtils.d("myerror" + "HeartRate查询数据不成功"+e.getMessage());
+            return null;
+        }
+
+
+    }
+    //根据日期来查找心率数据（每天）
+    public List<HeartRateData> findHeartRateDataByDate(String date ){
+        Log.d("BraceletDBManager", "查找数据："+date);
+        List<HeartRateData> a = new ArrayList<>();
+        try {
+         //   Cursor cursor = db.rawQuery("select * from heartRateData where date =?", new String[]{date});
+            Cursor cursor = db.rawQuery("select * from heartRateData where date=?",new String[]{date});
+            while (cursor.moveToNext()) {
+                HeartRateData heartRateData=new HeartRateData();
+                heartRateData.setSessionID(cursor.getString(0));
+                heartRateData.setDate(cursor.getString(1));
+                heartRateData.setTime(cursor.getString(2));
+                heartRateData.setHeartRate(cursor.getInt(3));
+                a.add(heartRateData);
+            }
+            LogUtils.d("sqlsucceed", "HeartRate查询数据成功");
+            cursor.close();
+            return a;
+        }catch (SQLException e){
+            LogUtils.d("myerror" + "HeartRate查询数据不成功"+e.getMessage());
+            return null;
+        }
+
+
+    }
+
+
+
+
     //sportData表的增加功能
     public void saveSportDataInfo(SportDataInfo sportDataInfo){
         db.beginTransaction();
@@ -42,8 +138,6 @@ public class BraceletDBManager {
             LogUtils.d("myerror" + "sportData增加数据不成功");
         }
             db.endTransaction();
-
-
 
     }
     //sportData表的修改功能

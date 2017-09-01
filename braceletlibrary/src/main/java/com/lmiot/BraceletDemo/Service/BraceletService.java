@@ -16,8 +16,12 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
+import com.google.gson.Gson;
+import com.lmiot.BraceletDemo.Bean.HeartRateData;
+import com.lmiot.BraceletDemo.Database.BraceletDBManager;
 import com.lmiot.BraceletDemo.Util.BlueToothUtils;
 import com.lmiot.BraceletDemo.Util.StrUtils;
+import com.lmiot.BraceletDemo.Util.TimeUtils;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -43,6 +47,7 @@ public class BraceletService extends Service {
     private String mRateData;
     private String mSleepData;
     private int mDataLength;
+    private BraceletDBManager mBraceletDBManager;
 
     @Nullable
     @Override
@@ -55,6 +60,7 @@ public class BraceletService extends Service {
         Log.d("BraceletService", "服务被开启");
 
         mBlueAddress = intent.getStringExtra("blueAddress");
+        mBraceletDBManager = new BraceletDBManager(this);
 
         JudgeBlue();
 
@@ -219,6 +225,7 @@ public class BraceletService extends Service {
                         mIntent = new Intent();
                         mIntent.setAction("com.BraceletDemo.bracelet.success");
                         mIntent.putExtra("RateData",mRateData);
+                        SAveRateDate(mRateData);
                         sendBroadcast(mIntent);
                     }
 
@@ -307,6 +314,57 @@ public class BraceletService extends Service {
 
     }
 
+
+    /**
+     * 保存心率数据到数据库:以小时为单位保存，具体精度可以自己根据实际修改
+     * @param rateData
+     */
+    private void SAveRateDate(String rateData) {
+
+        try {
+            String substring = rateData.substring(8, 10);
+            int nowRate = StrUtils.str16to10int(substring);
+
+            String heartRateCurrentTime = TimeUtils.getHeartRateCurrentTime();
+            String currentDate = TimeUtils.getCurrentDate();
+
+            //先查找当前时间（精确到小时）
+            HeartRateData heartRateDataByTimer = mBraceletDBManager.findHeartRateDataByTimer(currentDate,heartRateCurrentTime);
+            Log.d("BraceletService", new Gson().toJson(heartRateDataByTimer));
+
+            if(nowRate!=0){ //心率为0不保存
+                if(heartRateDataByTimer.getTime()!=null){  //如果已存在，则保存平均值
+                    int oldRate = heartRateDataByTimer.getHeartRate();
+                    int saveRate=(int)((nowRate+oldRate)/2);
+
+                    HeartRateData heartRateData = new HeartRateData();
+                    heartRateData.setSessionID("");
+                    heartRateData.setDate(currentDate);
+                    heartRateData.setTime(heartRateCurrentTime);
+                    heartRateData.setHeartRate(saveRate);
+                    mBraceletDBManager.updateHeartRateDataInfo(heartRateData);
+
+                }
+                else {
+
+                    HeartRateData heartRateData = new HeartRateData();
+                    heartRateData.setSessionID("");
+                    heartRateData.setDate(currentDate);
+                    heartRateData.setTime(heartRateCurrentTime);
+                    heartRateData.setHeartRate(nowRate);
+                    mBraceletDBManager.saveHeartRateDataInfo(heartRateData);
+
+                }
+            }
+
+
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 
 
     //不处理，应答a2：02

@@ -127,6 +127,8 @@ public class BluetoothScanActivity extends Activity implements View.OnClickListe
         } else if (i == R.id.id_btn_search) {
             startScan();
 
+
+
         }
 
     }
@@ -160,7 +162,13 @@ public class BluetoothScanActivity extends Activity implements View.OnClickListe
             v.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    String name = device.getName();
+                    String address = device.getAddress();
+                    Intent intent = new Intent(BluetoothScanActivity.this, SunActivity.class);
+                    intent.putExtra("devID", address);
+                    startActivity(intent);
+
+
+                  /*  String name = device.getName();
 
                     if (!TextUtils.isEmpty(name)) {
                         if (name.startsWith("HRW")) {
@@ -174,7 +182,7 @@ public class BluetoothScanActivity extends Activity implements View.OnClickListe
                         }
                     } else {
                         ToastUtil.ToastMessage(BluetoothScanActivity.this, "无法识别该设备  ！");
-                    }
+                    }*/
                 }
             });
 

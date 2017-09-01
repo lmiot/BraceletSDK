@@ -153,7 +153,7 @@
             android_custom:roundWidth="3dip"
             android_custom:textColor="@color/green"
             android_custom:textIsDisplayable="true"
-            android_custom:textSize="35sp"
+            android_custom:textSize="25sp"
             app:layout_heightPercent="40%w"
             app:layout_widthPercent="40%w"
             />
@@ -166,7 +166,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:textColor="@color/green"
-            android:textSize="35dp"/>
+            android:textSize="20sp"/>
 
         <com.zhy.android.percent.support.PercentLinearLayout
             android:id="@+id/id_tv_moonat_pace_counts_li"

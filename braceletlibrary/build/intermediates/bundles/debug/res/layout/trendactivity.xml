@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.zhy.android.percent.support.PercentRelativeLayout
+<com.zhy.android.percent.support.PercentLinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -22,8 +22,59 @@
         app:layout_heightPercent="82%h"
         app:layout_widthPercent="100%w"
         android:orientation="vertical"
-        android:layout_below="@+id/id_about_title"
         >
+
+
+
+        <LinearLayout
+            android:id="@+id/id_heart_rate_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/id_now_day"
+                android:textSize="15sp"
+                android:text="2017-1-1"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorAccent"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/id_main_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="50dp">
@@ -68,7 +119,7 @@
                android:layout_marginBottom="4dp"
                android:layout_alignParentBottom="true"
                android:background="@color/color_mydevice_background"/>
-           <CheckBox
+           <RadioButton
                android:id="@+id/id_cb_trendat_day"
                android:text="日"
                android:paddingBottom="10dp"
@@ -80,7 +131,7 @@
                android:gravity="center"
                android:textSize="20sp"
                android:layout_height="45dp" />
-           <CheckBox
+           <RadioButton
                android:id="@+id/id_cb_trendat_week"
                android:text="周"
                android:button="@null"
@@ -93,7 +144,7 @@
                android:layout_marginTop="5dp"
                android:layout_alignParentBottom="true"
                android:layout_centerHorizontal="true" />
-           <CheckBox
+           <RadioButton
                android:id="@+id/id_cb_trendat_month"
                android:text="月"
                android:button="@null"
@@ -111,15 +162,19 @@
 
        </RelativeLayout>
 
+       </LinearLayout>
+
         <android.support.v4.view.ViewPager
             android:id="@+id/id_vp_trendat"
              android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
         </android.support.v4.view.ViewPager>
 
 
     </LinearLayout>
-    <RelativeLayout
+    <com.zhy.android.percent.support.PercentRelativeLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_heightPercent="10%h"
@@ -129,37 +184,78 @@
         >
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="1px"
             android:background="@color/color_mydevice_background"/>
-        <CheckBox
 
-            android:button="@null"
-            android:id="@+id/id_iv_trendat_week"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_centerInParent="true"
-            android:background="@drawable/consumption_small_gray"
-            android:scaleType="fitXY"/>
-        <CheckBox
-            android:button="@null"
-            android:id="@+id/id_iv_trendat_day"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_alignTop="@id/id_iv_trendat_week"
-            android:layout_alignParentLeft="true"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/pace_small_green"
-            android:layout_marginLeft="55dp"/>
-        <CheckBox
-            android:button="@null"
-            android:id="@+id/id_iv_trendat_mooth"
-            android:layout_alignTop="@id/id_iv_trendat_week"
-            android:layout_marginRight="55dp"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/sleep_small_gray"
-            android:scaleType="fitXY"/>
-    </RelativeLayout>
-</com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+
+       <com.zhy.android.percent.support.PercentLinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="fill_parent"
+           android:orientation="horizontal"
+           >
+           <com.zhy.android.percent.support.PercentRelativeLayout
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent">
+               <RadioButton
+                   android:id="@+id/id_iv_heart_rate"
+                   android:button="@null"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:background="@drawable/heart_rate_selector"
+                   android:layout_centerInParent="true"
+                   />
+
+           </com.zhy.android.percent.support.PercentRelativeLayout>
+
+           <com.zhy.android.percent.support.PercentRelativeLayout
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent">
+               <RadioButton
+                   android:id="@+id/id_iv_trendat_day"
+                   android:button="@null"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:background="@drawable/pace_small_selector"
+                   android:layout_centerInParent="true"
+                   />
+
+           </com.zhy.android.percent.support.PercentRelativeLayout>
+
+           <com.zhy.android.percent.support.PercentRelativeLayout
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent">
+               <RadioButton
+                   android:id="@+id/id_iv_trendat_week"
+                   android:button="@null"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:background="@drawable/consumption_selector"
+                   android:layout_centerVertical="true"
+                   android:layout_centerHorizontal="true"/>
+
+           </com.zhy.android.percent.support.PercentRelativeLayout>
+
+           <com.zhy.android.percent.support.PercentRelativeLayout
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent">
+               <RadioButton
+                   android:id="@+id/id_iv_trendat_mooth"
+                   android:button="@null"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:background="@drawable/sleep_small_selector"
+                   android:layout_centerInParent="true"
+                   />
+
+           </com.zhy.android.percent.support.PercentRelativeLayout>
+
+       </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>

@@ -1,23 +1,26 @@
 package com.lmiot.BraceletDemo.Activity;
 
-import android.app.Activity;
+import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.CheckBox;
+import android.widget.DatePicker;
+import android.widget.RadioButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.lmiot.BraceletDemo.Adapter.FragmentViewPagerAdapter;
+import com.lmiot.BraceletDemo.Bean.SportDataInfo;
 import com.lmiot.BraceletDemo.R;
+import com.lmiot.BraceletDemo.Util.SPUtil;
+import com.lmiot.BraceletDemo.Util.TimeUtils;
 import com.lmiot.BraceletDemo.fragments.ConsumptionDayFragment;
 import com.lmiot.BraceletDemo.fragments.ConsumptionMonthFragment;
 import com.lmiot.BraceletDemo.fragments.ConsumptionWeekFragment;
+import com.lmiot.BraceletDemo.fragments.HeartRateFargment;
 import com.lmiot.BraceletDemo.fragments.PaceDayFragment;
 import com.lmiot.BraceletDemo.fragments.PaceMonthFragment;
 import com.lmiot.BraceletDemo.fragments.PaceWeekFragment;
@@ -32,24 +35,28 @@ import java.util.List;
 
 public class Trendactivity extends AppCompatActivity implements View.OnClickListener {
 
-
     private int systemYear;
     private List<Fragment> fragments;
     private FragmentViewPagerAdapter FVPadter;
     private int currentId;
     private ImageView mIdBack;
     private TextView mIdTitle;
+    private TextView mIdNowDay;
     private ImageView mIdTrendatYearLeftArrow;
     private TextView mIdTvTrendatYear;
     private ImageView mIdTrendatYearRightArrow;
-    private CheckBox mIdCbTrendatDay;
-    private CheckBox mIdCbTrendatWeek;
-    private CheckBox mIdCbTrendatMonth;
+    private RadioButton mIdHeartRate;
+    private RadioButton mIdCbTrendatDay;
+    private RadioButton mIdCbTrendatWeek;
+    private RadioButton mIdCbTrendatMonth;
     private ViewPager mIdVpTrendat;
     private LinearLayout mIdTrendLayout;
-    private CheckBox mIdIvTrendatWeek;
-    private CheckBox mIdIvTrendatDay;
-    private CheckBox mIdIvTrendatMooth;
+    private RadioButton mIdIvTrendatWeek;
+    private RadioButton mIdIvTrendatDay;
+    private RadioButton mIdIvTrendatMooth;
+    private LinearLayout mMainLayout;
+    private LinearLayout mHeartRateLayout;
+    private HeartRateFargment mHeartRateFargment;
 
 
     @Override
@@ -69,19 +76,28 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
     private void initView() {
         mIdBack = (ImageView) findViewById(R.id.id_back);
         mIdTitle = (TextView) findViewById(R.id.id_title);
+        mIdNowDay = (TextView) findViewById(R.id.id_now_day);
         mIdTrendatYearLeftArrow = (ImageView) findViewById(R.id.id_trendat_year_left_arrow);
         mIdTvTrendatYear = (TextView) findViewById(R.id.id_tv_trendat_year);
         mIdTrendatYearRightArrow = (ImageView) findViewById(R.id.id_trendat_year_right_arrow);
-        mIdCbTrendatDay = (CheckBox) findViewById(R.id.id_cb_trendat_day);
-        mIdCbTrendatWeek = (CheckBox) findViewById(R.id.id_cb_trendat_week);
-        mIdCbTrendatMonth = (CheckBox) findViewById(R.id.id_cb_trendat_month);
+        mMainLayout = (LinearLayout) findViewById(R.id.id_main_title_layout);
+        mHeartRateLayout = (LinearLayout) findViewById(R.id.id_heart_rate_layout);
+
+
+        mIdHeartRate = (RadioButton) findViewById(R.id.id_iv_heart_rate);
+        mIdCbTrendatDay = (RadioButton) findViewById(R.id.id_cb_trendat_day);
+        mIdCbTrendatWeek = (RadioButton) findViewById(R.id.id_cb_trendat_week);
+        mIdCbTrendatMonth = (RadioButton) findViewById(R.id.id_cb_trendat_month);
         mIdVpTrendat = (ViewPager) findViewById(R.id.id_vp_trendat);
         mIdTrendLayout = (LinearLayout) findViewById(R.id.id_trend_layout);
-        mIdIvTrendatWeek = (CheckBox) findViewById(R.id.id_iv_trendat_week);
-        mIdIvTrendatDay = (CheckBox) findViewById(R.id.id_iv_trendat_day);
-        mIdIvTrendatMooth = (CheckBox) findViewById(R.id.id_iv_trendat_mooth);
+        mIdIvTrendatWeek = (RadioButton) findViewById(R.id.id_iv_trendat_week);
+        mIdIvTrendatDay = (RadioButton) findViewById(R.id.id_iv_trendat_day);
+        mIdIvTrendatMooth = (RadioButton) findViewById(R.id.id_iv_trendat_mooth);
 
         mIdTitle.setText("趋势");
+        mIdNowDay.setText(TimeUtils.getCurrentDate());
+
+        mIdNowDay.setOnClickListener(this);
 
         mIdBack.setOnClickListener(this);
         mIdTrendatYearLeftArrow.setOnClickListener(this);
@@ -90,8 +106,10 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
         mIdCbTrendatWeek.setOnClickListener(this);
         mIdCbTrendatMonth.setOnClickListener(this);
         mIdIvTrendatDay.setOnClickListener(this);
+        mIdHeartRate.setOnClickListener(this);
         mIdIvTrendatWeek.setOnClickListener(this);
         mIdIvTrendatMooth.setOnClickListener(this);
+
 
 
     }
@@ -99,6 +117,7 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
 
     private void initFragments() {
         fragments = new ArrayList<Fragment>();
+        mHeartRateFargment = new HeartRateFargment();
         PaceDayFragment paceDayFragment = new PaceDayFragment();
         PaceWeekFragment paceWeekFragment = new PaceWeekFragment();
         PaceMonthFragment paceMonthFragment = new PaceMonthFragment();
@@ -108,6 +127,7 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
         SleepDayFragment sleepDayFragment = new SleepDayFragment();
         SleepWeekFragment sleepWeekFragment = new SleepWeekFragment();
         SleepMonthFragment sleepMonthFragment = new SleepMonthFragment();
+        fragments.add(mHeartRateFargment);
         fragments.add(paceDayFragment);
         fragments.add(paceWeekFragment);
         fragments.add(paceMonthFragment);
@@ -121,81 +141,99 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
         FVPadter = new FragmentViewPagerAdapter(this.getSupportFragmentManager(), mIdVpTrendat, fragments);
         mIdVpTrendat.setAdapter(FVPadter);
         mIdVpTrendat.setCurrentItem(0);
-        mIdCbTrendatDay.setChecked(true);
-        mIdIvTrendatDay.setChecked(true);
+        mIdHeartRate.setChecked(true);
+        mMainLayout.setVisibility(View.GONE);
+        mHeartRateLayout.setVisibility(View.VISIBLE);
+
         FVPadter.setOnExtraPageChangeListener((new FragmentViewPagerAdapter.OnExtraPageChangeListener() {
                     @Override
                     public void onExtraPageSelected(int i) {
                         switch (i) {
                             case 0:
+                                mMainLayout.setVisibility(View.GONE);
+                                mHeartRateLayout.setVisibility(View.VISIBLE);
                                 mIdVpTrendat.setCurrentItem(0);
-                                ChangeCheckBox();
                                 ChangeBottomIcon();
-                                mIdIvTrendatDay.setBackgroundResource(R.drawable.pace_small_green);
-                                mIdIvTrendatDay.setChecked(true);
-                                mIdCbTrendatDay.setChecked(true);
+                                mIdHeartRate.setChecked(true);
                                 break;
                             case 1:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
                                 mIdVpTrendat.setCurrentItem(1);
-                                ChangeCheckBox();
+                                ChangeRadioButton();
                                 ChangeBottomIcon();
-                                mIdIvTrendatDay.setBackgroundResource(R.drawable.pace_small_green);
                                 mIdIvTrendatDay.setChecked(true);
-                                mIdCbTrendatWeek.setChecked(true);
+                                mIdCbTrendatDay.setChecked(true);
                                 break;
                             case 2:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
                                 mIdVpTrendat.setCurrentItem(2);
-                                ChangeCheckBox();
+                                ChangeRadioButton();
                                 ChangeBottomIcon();
-                                mIdIvTrendatDay.setBackgroundResource(R.drawable.pace_small_green);
+                                mIdIvTrendatDay.setChecked(true);
+                                mIdCbTrendatWeek.setChecked(true);
+                                break;
+                            case 3:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
+                                mIdVpTrendat.setCurrentItem(3);
+                                ChangeRadioButton();
+                                ChangeBottomIcon();
                                 mIdIvTrendatDay.setChecked(true);
                                 mIdCbTrendatMonth.setChecked(true);
                                 break;
-                            case 3:
-                                mIdVpTrendat.setCurrentItem(3);
-                                ChangeCheckBox();
+                            case 4:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
+                                mIdVpTrendat.setCurrentItem(4);
+                                ChangeRadioButton();
                                 ChangeBottomIcon();
-                                mIdIvTrendatWeek.setBackgroundResource(R.drawable.consumption_small_green);
                                 mIdIvTrendatWeek.setChecked(true);
                                 mIdCbTrendatDay.setChecked(true);
                                 break;
-                            case 4:
-                                mIdVpTrendat.setCurrentItem(4);
-                                ChangeCheckBox();
+                            case 5:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
+                                mIdVpTrendat.setCurrentItem(5);
+                                ChangeRadioButton();
                                 ChangeBottomIcon();
-                                mIdIvTrendatWeek.setBackgroundResource(R.drawable.consumption_small_green);
                                 mIdIvTrendatWeek.setChecked(true);
                                 mIdCbTrendatWeek.setChecked(true);
                                 break;
-                            case 5:
-                                mIdVpTrendat.setCurrentItem(5);
-                                ChangeCheckBox();
+                            case 6:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
+                                mIdVpTrendat.setCurrentItem(6);
+                                ChangeRadioButton();
                                 ChangeBottomIcon();
-                                mIdIvTrendatWeek.setBackgroundResource(R.drawable.consumption_small_green);
                                 mIdIvTrendatWeek.setChecked(true);
                                 mIdCbTrendatMonth.setChecked(true);
                                 break;
-                            case 6:
-                                mIdVpTrendat.setCurrentItem(6);
-                                ChangeCheckBox();
+                            case 7:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
+                                mIdVpTrendat.setCurrentItem(7);
+                                ChangeRadioButton();
                                 ChangeBottomIcon();
-                                mIdIvTrendatMooth.setBackgroundResource(R.drawable.sleep_small_green);
                                 mIdIvTrendatMooth.setChecked(true);
                                 mIdCbTrendatDay.setChecked(true);
                                 break;
-                            case 7:
-                                mIdVpTrendat.setCurrentItem(7);
-                                ChangeCheckBox();
+                            case 8:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
+                                mIdVpTrendat.setCurrentItem(8);
+                                ChangeRadioButton();
                                 ChangeBottomIcon();
-                                mIdIvTrendatMooth.setBackgroundResource(R.drawable.sleep_small_green);
                                 mIdIvTrendatMooth.setChecked(true);
                                 mIdCbTrendatWeek.setChecked(true);
                                 break;
-                            case 8:
-                                mIdVpTrendat.setCurrentItem(8);
-                                ChangeCheckBox();
+                            case 9:
+                                mMainLayout.setVisibility(View.VISIBLE);
+                                mHeartRateLayout.setVisibility(View.GONE);
+                                mIdVpTrendat.setCurrentItem(9);
+                                ChangeRadioButton();
                                 ChangeBottomIcon();
-                                mIdIvTrendatMooth.setBackgroundResource(R.drawable.sleep_small_green);
                                 mIdIvTrendatMooth.setChecked(true);
                                 mIdCbTrendatMonth.setChecked(true);
                                 break;
@@ -207,15 +245,13 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void ChangeBottomIcon() {
-        mIdIvTrendatDay.setBackgroundResource(R.drawable.pace_small_gray);
+        mIdHeartRate.setChecked(false);
         mIdIvTrendatDay.setChecked(false);
-        mIdIvTrendatMooth.setBackgroundResource(R.drawable.sleep_small_gray);
         mIdIvTrendatMooth.setChecked(false);
-        mIdIvTrendatWeek.setBackgroundResource(R.drawable.consumption_small_gray);
         mIdIvTrendatWeek.setChecked(false);
     }
 
-    private void ChangeCheckBox() {
+    private void ChangeRadioButton() {
         mIdCbTrendatDay.setChecked(false);
         mIdCbTrendatMonth.setChecked(false);
         mIdCbTrendatWeek.setChecked(false);
@@ -225,70 +261,57 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
 
     private void getSystemYear() {
         systemYear = Calendar.getInstance().get(Calendar.YEAR);
-        mIdTvTrendatYear.setText(Integer.toString(systemYear)+"");
+        mIdTvTrendatYear.setText(Integer.toString(systemYear) + "");
     }
 
 
     private void MonthCheck() {
+        mIdCbTrendatMonth.setChecked(false);
+        mIdCbTrendatWeek.setChecked(false);
         if (mIdIvTrendatDay.isChecked()) {
-            mIdVpTrendat.setCurrentItem(2);
-            ChangeCheckBox();
-            mIdCbTrendatMonth.setChecked(true);
-
+            mIdVpTrendat.setCurrentItem(3);
         }
         if (mIdIvTrendatWeek.isChecked()) {
-            mIdVpTrendat.setCurrentItem(5);
-            ChangeCheckBox();
-            mIdCbTrendatMonth.setChecked(true);
-
+            mIdVpTrendat.setCurrentItem(6);
 
         }
         if (mIdIvTrendatMooth.isChecked()) {
-            mIdVpTrendat.setCurrentItem(8);
-            ChangeCheckBox();
-            mIdCbTrendatMonth.setChecked(true);
+            mIdVpTrendat.setCurrentItem(6);
         }
 
     }
 
     private void WeekCheck() {
+        mIdCbTrendatDay.setChecked(false);
+        mIdCbTrendatMonth.setChecked(false);
+
         if (mIdIvTrendatDay.isChecked()) {
-            mIdVpTrendat.setCurrentItem(1);
-            ChangeCheckBox();
-            mIdCbTrendatWeek.setChecked(true);
+            mIdVpTrendat.setCurrentItem(2);
         }
         if (mIdIvTrendatWeek.isChecked()) {
-            mIdVpTrendat.setCurrentItem(4);
-            ChangeCheckBox();
-            mIdCbTrendatWeek.setChecked(true);
-
+            mIdVpTrendat.setCurrentItem(5);
 
         }
         if (mIdIvTrendatMooth.isChecked()) {
-            mIdVpTrendat.setCurrentItem(7);
-            ChangeCheckBox();
-            mIdCbTrendatWeek.setChecked(true);
+            mIdVpTrendat.setCurrentItem(8);
         }
 
     }
 
     private void DayCheck() {
+        mIdCbTrendatMonth.setChecked(false);
+        mIdCbTrendatWeek.setChecked(false);
+
         if (mIdIvTrendatDay.isChecked()) {
-            mIdVpTrendat.setCurrentItem(0);
-            ChangeCheckBox();
-            mIdCbTrendatDay.setChecked(true);
+            mIdVpTrendat.setCurrentItem(1);
+
         }
         if (mIdIvTrendatWeek.isChecked()) {
-            mIdVpTrendat.setCurrentItem(3);
-            ChangeCheckBox();
-            mIdCbTrendatDay.setChecked(true);
-
+            mIdVpTrendat.setCurrentItem(4);
 
         }
         if (mIdIvTrendatMooth.isChecked()) {
-            mIdVpTrendat.setCurrentItem(6);
-            ChangeCheckBox();
-            mIdCbTrendatDay.setChecked(true);
+            mIdVpTrendat.setCurrentItem(7);
         }
 
 
@@ -317,32 +340,53 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
         } else if (i == R.id.id_cb_trendat_month) {
             MonthCheck();
 
-        } else if (i == R.id.id_iv_trendat_day) {
+        } else if (i == R.id.id_iv_heart_rate) {  //心率
             mIdVpTrendat.setCurrentItem(0);
-            ChangeCheckBox();
-            ChangeBottomIcon();
-            mIdIvTrendatDay.setBackgroundResource(R.drawable.pace_small_green);
-            mIdIvTrendatDay.setChecked(true);
-            mIdCbTrendatDay.setChecked(true);
 
 
-        } else if (i == R.id.id_iv_trendat_week) {
-            mIdVpTrendat.setCurrentItem(3);
-            ChangeCheckBox();
-            ChangeBottomIcon();
-            mIdIvTrendatWeek.setBackgroundResource(R.drawable.consumption_small_green);
-            mIdIvTrendatWeek.setChecked(true);
-            mIdCbTrendatDay.setChecked(true);
+        } else if (i == R.id.id_iv_trendat_day) { //步数
+            mIdVpTrendat.setCurrentItem(1);
 
 
-        } else if (i == R.id.id_iv_trendat_mooth) {
-            mIdVpTrendat.setCurrentItem(6);
-            ChangeCheckBox();
-            ChangeBottomIcon();
-            mIdIvTrendatMooth.setBackgroundResource(R.drawable.sleep_small_green);
-            mIdIvTrendatMooth.setChecked(true);
-            mIdCbTrendatDay.setChecked(true);
+        } else if (i == R.id.id_iv_trendat_week) { //热量
+            mIdVpTrendat.setCurrentItem(4);
+
+
+        }
+
+        else if (i == R.id.id_iv_trendat_mooth) {//睡眠
+            mIdVpTrendat.setCurrentItem(7);
+
+        }
+        else if (i == R.id.id_now_day) {//睡眠
+            showHistory();
 
         }
     }
+
+    /**
+     * 获取历史数据
+     */
+    private void showHistory() {
+
+        Calendar calendar = Calendar.getInstance();
+        new DatePickerDialog(Trendactivity.this, new DatePickerDialog.OnDateSetListener() {
+
+
+            @Override
+            public void onDateSet(DatePicker view, int year, int month, int day) {
+                // TODO Auto-generated method stub
+                int mMonth = month + 1;
+                int mDay = day;
+                final String bydate = year + "-" + mMonth + "-" + mDay;
+                mIdNowDay.setText(bydate);
+                mHeartRateFargment.setCurrentDate(bydate);
+                mHeartRateFargment.initView(mHeartRateFargment.getViewSave());
+
+            }
+        },
+                calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
+                calendar.get(Calendar.DAY_OF_MONTH)).show();
+    }
+
 }

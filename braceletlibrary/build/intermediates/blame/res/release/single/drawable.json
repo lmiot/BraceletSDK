@@ -180,6 +180,10 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\drawable\\back_bg.xml"
     },
     {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\heart_rate_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\drawable\\heart_rate_selector.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -188,8 +192,16 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\drawable\\bathtub_checkbox4.xml"
     },
     {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\pace_small_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\drawable\\pace_small_selector.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\sleep_small_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\drawable\\sleep_small_selector.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
@@ -238,6 +250,10 @@
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\consumption_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\drawable\\consumption_selector.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
