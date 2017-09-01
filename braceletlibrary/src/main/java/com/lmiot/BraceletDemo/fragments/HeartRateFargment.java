@@ -38,6 +38,7 @@ public class HeartRateFargment extends Fragment {
     private LinearLayout columnar_chart;
     GraphicalView graphicalView;
     private BraceletDBManager manager;
+    private XYMultipleSeriesRenderer mRenderer;
 
     public View getViewSave() {
         return mViewSave;
@@ -88,7 +89,17 @@ public class HeartRateFargment extends Fragment {
 
         try {
             columnar_chart =(LinearLayout )view.findViewById(R.id.PaceMonthFragment_columnar_chart ) ;
-            graphicalView= ChartFactory.getLineChartView(context, getDataset(), getRenderer()) ;
+            mRenderer = getRenderer();
+            graphicalView= ChartFactory.getLineChartView(context, getDataset(), mRenderer) ;
+
+            Log.d("HeartRateFargment", "mRenderer.getSeriesRendererCount():" + mRenderer.getSeriesRendererCount());
+
+
+            //设置坐标点上的数据显示
+            SimpleSeriesRenderer seriesrenderer =mRenderer.getSeriesRendererAt(0);
+            seriesrenderer.setChartValuesTextSize(10);
+            seriesrenderer.setDisplayChartValues(false);
+            seriesrenderer.setDisplayChartValuesDistance(30);
 
             columnar_chart .removeAllViews();
             columnar_chart .addView(graphicalView, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.FILL_PARENT));

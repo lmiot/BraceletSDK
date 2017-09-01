@@ -127,6 +127,10 @@ public class BluetoothScanActivity extends Activity implements View.OnClickListe
         } else if (i == R.id.id_btn_search) {
             startScan();
 
+            String address = "00:00:00:00:00:00";
+            Intent intent = new Intent(BluetoothScanActivity.this, SunActivity.class);
+            intent.putExtra("devID", address);
+            startActivity(intent);
 
 
         }
