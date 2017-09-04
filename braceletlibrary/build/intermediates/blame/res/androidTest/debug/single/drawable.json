@@ -1,15 +1,15 @@
 [
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\back_bg.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\back_bg.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_ab_back_material.xml",
@@ -20,20 +20,20 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox3.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\checkbox_select2.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\checkbox_select2.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox2.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox2.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\seek_arc_control_selector.xml",
@@ -44,20 +44,28 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\back_bg.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\checkbox_select.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\checkbox_select.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\weight_circle_heart.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\weight_circle_heart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_heart_rate_end.xml",
@@ -68,20 +76,12 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox3.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_img.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f0e663672bbbfb251c0863b72449221990216e5a\\output\\res\\drawable\\loading_img.png"
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox2.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox2.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dialog_selector.xml",
@@ -96,6 +96,10 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\light_select.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox5.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox5.xml"
     },
@@ -108,12 +112,8 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\consumption_selector.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox51.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox51.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_heart_rate_end.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_heart_rate_end.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox5.xml",
@@ -124,56 +124,80 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\weight_circle_heart.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\checkbox_select2.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\checkbox_select2.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pace_small_selector.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\pace_small_selector.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\checkbox_select.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\checkbox_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_clock_activity_sms.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_clock_activity_sms.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\heart_rate_selector.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\heart_rate_selector.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox4.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox4.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_choosetest_background_change.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_choosetest_background_change.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sleep_small_selector.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\sleep_small_selector.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox6.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox6.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sleep_small_selector.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\sleep_small_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_drawable.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\186e3f6bdf261624155ec1bf431ba84fb5ba6c8b\\output\\res\\drawable\\loading_drawable.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_colored_material.xml",
@@ -184,24 +208,32 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox4.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox4.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox3.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox3.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corners_radio.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f0e663672bbbfb251c0863b72449221990216e5a\\output\\res\\drawable\\corners_radio.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox6.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox6.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox1.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox1.xml"
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\img_circle.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\img_circle.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
@@ -212,20 +244,24 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corners_radio.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\186e3f6bdf261624155ec1bf431ba84fb5ba6c8b\\output\\res\\drawable\\corners_radio.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\heart_rate_selector.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\heart_rate_selector.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -236,6 +272,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox51.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox51.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_date.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_date.xml"
     },
@@ -244,35 +284,275 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_date.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_date.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_drawable.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f0e663672bbbfb251c0863b72449221990216e5a\\output\\res\\drawable\\loading_drawable.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox1.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox1.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox4.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox4.xml"
     },
     {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox1.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox1.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\checkbox_select2.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\checkbox_select2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox1.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox1.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox2.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox2.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\checkbox_select.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\checkbox_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\light_select.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\light_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox4.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_img.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f0e663672bbbfb251c0863b72449221990216e5a\\output\\res\\drawable\\loading_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\seek_arc_control_selector.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\seek_arc_control_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dialog_selector.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\dialog_selector.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox51.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox51.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox5.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox3.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox3.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox2.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox2.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pace_small_selector.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\pace_small_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\consumption_selector.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\consumption_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pace_small_selector.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\pace_small_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox1.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\house_checkbox6.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\house_checkbox6.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox5.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox5.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox4.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bathtub_checkbox1.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\bathtub_checkbox1.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_img.png",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\186e3f6bdf261624155ec1bf431ba84fb5ba6c8b\\output\\res\\drawable\\loading_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_clock_activity_sms.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_clock_activity_sms.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_choosetest_background_change.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_choosetest_background_change.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\heart_circle.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\heart_circle.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     }
 ]

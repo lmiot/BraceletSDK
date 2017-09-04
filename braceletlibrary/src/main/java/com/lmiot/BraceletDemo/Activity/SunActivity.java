@@ -35,6 +35,7 @@ import com.zhy.android.percent.support.PercentRelativeLayout;
 import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -111,38 +112,25 @@ public class SunActivity extends Activity implements View.OnClickListener {
         Log.d("SunActivity", "恢复被调用");
         GetMonitorData();
         ShowTarget();
-/*
-        SAveRateDate(60,"00");
-        SAveRateDate(65,"01");
-        SAveRateDate(78,"02");
-        SAveRateDate(69,"03");
-        SAveRateDate(110,"04");
-        SAveRateDate(103,"05");
-        SAveRateDate(90,"06");
-        SAveRateDate(80,"07");
-        SAveRateDate(77,"08");
-        SAveRateDate(68,"09");
-        SAveRateDate(69,"10");
-        SAveRateDate(75,"11");
-        SAveRateDate(62,"12");
-        SAveRateDate(86,"13");
-        SAveRateDate(98,"14");
-        SAveRateDate(75,"15");
-        SAveRateDate(71,"16");
-        SAveRateDate(74,"17");
-        SAveRateDate(79,"18");
-        SAveRateDate(78,"19");
-        SAveRateDate(76,"21");
-        SAveRateDate(78,"22");
-        SAveRateDate(82,"23");*/
+
+
+     /*   final String title = TimeUtils.getCurrentTime();
+        new Timer().schedule(new TimerTask() {
+            @Override
+            public void run() {
+                int random=50+(int)(Math.random()*160); //产生随机数
+                SAveRateDate(title,random,TimeUtils.getHeartRateCurrentTime());
+            }
+        },1000,1000);*/
+
 
     }
 
 
     /**
-     * 保存心率数据到数据库:以小时为单位保存，具体精度可以自己根据实际修改
+     * 虚拟保存心率数据到数据库:以小时为单位保存，具体精度可以自己根据实际修改
      */
-    private void SAveRateDate(int rate, String time) {
+    private void SAveRateDate(String title,int rate, String time) {
 
         try {
 
@@ -150,11 +138,11 @@ public class SunActivity extends Activity implements View.OnClickListener {
 
             HeartRateData heartRateData = new HeartRateData();
             heartRateData.setSessionID("");
+            heartRateData.setTitle(title);
             heartRateData.setDate(currentDate);
             heartRateData.setTime(time);
             heartRateData.setHeartRate(rate);
             manager.saveHeartRateDataInfo(heartRateData);
-
 
 
         } catch (Exception e) {

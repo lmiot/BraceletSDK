@@ -72,6 +72,7 @@ public class HeartrRateActivity extends Activity  implements View.OnClickListene
     private TextView mIdTvHeartRatTatalcounts;
     private TextView mIdTvHeartRatAveragePace;
     private PercentLinearLayout mIdAllDataId;
+    public static String mSaveTitle="";
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -264,6 +265,8 @@ public class HeartrRateActivity extends Activity  implements View.OnClickListene
      * 打开心率测试
      */
     private void OpenRate() {
+        //以每次点击开启心率时间作为保存标题，
+        mSaveTitle = TimeUtils.getCurrentTime();
         byte[] open = {(byte) 0x68, (byte) 0x06, (byte) 0x01, (byte) 0x00, (byte) 0x01, (byte) 0x70, (byte) 0x16};
         BlueToothUtils.ControlBracelet(open);
         GetRate();

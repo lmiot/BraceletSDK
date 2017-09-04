@@ -290,7 +290,6 @@ public class Clockactivity extends Activity  implements View.OnClickListener{
                 ClosePhoneRemind();
             }
 
-
         }
     }
 }

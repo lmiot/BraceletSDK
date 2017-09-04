@@ -8,10 +8,18 @@ package com.lmiot.BraceletDemo.Bean;
 public class HeartRateData {
 
     private String sessionID;
+    private String title;
     private    String date;
     private String time;
     private  int heartRate;
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
     public String getSessionID() {
         return sessionID;

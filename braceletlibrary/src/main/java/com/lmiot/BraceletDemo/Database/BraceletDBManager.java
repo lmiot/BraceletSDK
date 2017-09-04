@@ -38,8 +38,8 @@ public class BraceletDBManager {
         try {
 
 
-            db.execSQL("INSERT INTO heartRateData(sessionID, date, day_time,heart_rate) VALUES(?,?,?,?)",new Object[]{
-                    heartRateData.getSessionID(), heartRateData.getDate(),
+            db.execSQL("INSERT INTO heartRateData(sessionID,title, date, day_time,heart_rate) VALUES(?,?,?,?,?)",new Object[]{
+                    heartRateData.getSessionID(), heartRateData.getTitle(),heartRateData.getDate(),
                     heartRateData.getTime(), heartRateData.getHeartRate(),
                     });
             db.setTransactionSuccessful();
@@ -50,63 +50,57 @@ public class BraceletDBManager {
             db.endTransaction();
 
     }
-    //heartRateData表的更新
-    public void updateHeartRateDataInfo(HeartRateData heartRateData){
-        Log.d("BraceletDBManager", "更新心率："+new Gson().toJson(heartRateData));
-        db.beginTransaction();
+
+
+
+    //根据日期来查找心率数据
+    public List<String> findAllHeartRateTitle( ){
+        List<String> a = new ArrayList<>();
         try {
-            db.execSQL("update heartRateData set sessionID=?, date=?, day_time=?,heart_rate=? where day_time=?"
-                    ,new Object[]{
-                            heartRateData.getSessionID(), heartRateData.getDate(),
-                            heartRateData.getTime(), heartRateData.getHeartRate(),
-                            heartRateData.getTime()});
-            db.setTransactionSuccessful();
-            LogUtils.d("sqlsucceed", "HeartRate修改数据成功");
-        } catch (SQLException e) {
-            LogUtils.d("myerror" + "HeartRate修改数据不成功");
-        }
-        db.endTransaction();
-
-    }
-
-
-
-
-    //根据时间来查找心率数据
-    public HeartRateData findHeartRateDataByTimer(String date,String time ){
-        HeartRateData heartRateData = new HeartRateData();
-        try {
-            Cursor cursor = db.rawQuery("select * from heartRateData where date=? and day_time = ?", new String[]{date,time});
+           Cursor cursor = db.rawQuery("select distinct title from heartRateData ",null);
             while (cursor.moveToNext()) {
-                heartRateData.setSessionID(cursor.getString(0));
-                heartRateData.setDate(cursor.getString(1));
-                heartRateData.setTime(cursor.getString(2));
-                heartRateData.setHeartRate(cursor.getInt(3));
-
+                a.add(cursor.getString(0));
             }
             LogUtils.d("sqlsucceed", "HeartRate查询数据成功");
             cursor.close();
-            return heartRateData;
+            return a;
         }catch (SQLException e){
             LogUtils.d("myerror" + "HeartRate查询数据不成功"+e.getMessage());
             return null;
         }
 
+    }
+    //根据日期来查找心率数据的平均值
+    public int findHeartRateAVG(String title ){
+        int avg=0;
+        try {
+           Cursor cursor = db.rawQuery("select AVG(heart_rate)  from heartRateData where title=?",new String[]{title});
+            while (cursor.moveToNext()) {
+                avg=cursor.getInt(0);
+            }
+            LogUtils.d("sqlsucceed", "HeartRate查询数据成功");
+            cursor.close();
+            return avg;
+        }catch (SQLException e){
+            LogUtils.d("myerror" + "HeartRate查询数据不成功"+e.getMessage());
+            return 0;
+        }
 
     }
     //根据日期来查找心率数据（每天）
-    public List<HeartRateData> findHeartRateDataByDate(String date ){
-        Log.d("BraceletDBManager", "查找数据："+date);
+    public List<HeartRateData> findHeartRateDataByDate(String mTitle ){
+        Log.d("BraceletDBManager", "根据标题查找数据："+mTitle);
         List<HeartRateData> a = new ArrayList<>();
         try {
          //   Cursor cursor = db.rawQuery("select * from heartRateData where date =?", new String[]{date});
-            Cursor cursor = db.rawQuery("select * from heartRateData where date=?",new String[]{date});
+            Cursor cursor = db.rawQuery("select * from heartRateData where title=?",new String[]{mTitle});
             while (cursor.moveToNext()) {
                 HeartRateData heartRateData=new HeartRateData();
                 heartRateData.setSessionID(cursor.getString(0));
-                heartRateData.setDate(cursor.getString(1));
-                heartRateData.setTime(cursor.getString(2));
-                heartRateData.setHeartRate(cursor.getInt(3));
+                heartRateData.setTitle(cursor.getString(1));
+                heartRateData.setDate(cursor.getString(2));
+                heartRateData.setTime(cursor.getString(3));
+                heartRateData.setHeartRate(cursor.getInt(4));
                 a.add(heartRateData);
             }
             LogUtils.d("sqlsucceed", "HeartRate查询数据成功");

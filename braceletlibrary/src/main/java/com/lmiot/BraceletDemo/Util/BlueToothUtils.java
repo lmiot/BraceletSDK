@@ -36,7 +36,6 @@ public class BlueToothUtils {
 
 
 
-
     private static BluetoothAdapter mBluetoothAdapter;
     private static BluetoothAdapter.LeScanCallback mLeScanCallback;
 
@@ -96,7 +95,8 @@ public class BlueToothUtils {
                         mHandler.sendMessage(msg);
 
                     }
-                },10000);
+                },5000);
+
             }
             else {
                 //开启蓝牙

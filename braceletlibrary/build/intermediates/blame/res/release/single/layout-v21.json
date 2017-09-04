@@ -1,11 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",

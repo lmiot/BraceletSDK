@@ -9,8 +9,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.google.gson.Gson;
+import com.lmiot.BraceletDemo.Activity.Trendactivity;
 import com.lmiot.BraceletDemo.Bean.HeartRateData;
 import com.lmiot.BraceletDemo.Bean.SportDataInfo;
 import com.lmiot.BraceletDemo.Database.BraceletDBManager;
@@ -27,6 +29,8 @@ import org.achartengine.renderer.SimpleSeriesRenderer;
 import org.achartengine.renderer.XYMultipleSeriesRenderer;
 import org.achartengine.renderer.XYSeriesRenderer;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -39,6 +43,15 @@ public class HeartRateFargment extends Fragment {
     GraphicalView graphicalView;
     private BraceletDBManager manager;
     private XYMultipleSeriesRenderer mRenderer;
+    private List<HeartRateData> mHeartRateDataList;
+    private int mSize;
+    private TextView mResult;
+
+    public List<String> getAllHeartRateTitle() {
+        return mAllHeartRateTitle;
+    }
+
+    private List<String> mAllHeartRateTitle;
 
     public View getViewSave() {
         return mViewSave;
@@ -46,16 +59,16 @@ public class HeartRateFargment extends Fragment {
 
     private View mViewSave;
 
-    public String getCurrentDate() {
-        return mCurrentDate;
+
+    public String getTitle() {
+        return mTitle;
     }
 
-    public void setCurrentDate(String currentDate) {
-        mCurrentDate = currentDate;
-
+    public void setTitle(String title) {
+        mTitle = title;
     }
 
-    private String mCurrentDate;
+    private  String mTitle="";
 
 
     @Override
@@ -75,7 +88,23 @@ public class HeartRateFargment extends Fragment {
 
         View view = LayoutInflater.from(getActivity()).inflate(R.layout.fragment_heart_rate, null);
 
-        mCurrentDate = TimeUtils.getCurrentDate();
+
+
+        //查找最后一条的标题
+        mAllHeartRateTitle = manager.findAllHeartRateTitle();
+
+        Log.d("HeartRateFargment","所有标题："+ new Gson().toJson(mAllHeartRateTitle));
+        if(mAllHeartRateTitle !=null){
+            if(mAllHeartRateTitle.size()>0){
+               mTitle = mAllHeartRateTitle.get(mAllHeartRateTitle.size() - 1);
+                Log.d("HeartRateFargment", "最新标题："+mTitle);
+                Trendactivity trendactivity= (Trendactivity) context;
+                trendactivity.setTitle(mTitle);
+            }
+        }
+
+
+
         initView(view);
         return view;
     }
@@ -87,8 +116,39 @@ public class HeartRateFargment extends Fragment {
     public void initView(View view) {
         mViewSave = view;
 
+        columnar_chart =(LinearLayout )view.findViewById(R.id.PaceMonthFragment_columnar_chart ) ;
+        mResult = view.findViewById(R.id.id_result);
         try {
-            columnar_chart =(LinearLayout )view.findViewById(R.id.PaceMonthFragment_columnar_chart ) ;
+
+
+            mHeartRateDataList = manager.findHeartRateDataByDate(mTitle);
+            Log.d("HeartRateFargment","所有数据："+ new Gson().toJson(mHeartRateDataList));
+
+            if(mHeartRateDataList==null){
+                mHeartRateDataList=new ArrayList<>();
+            }
+
+
+            mSize = mHeartRateDataList.size();
+
+
+
+            if(mSize>0){
+                int heartRateAVG = manager.findHeartRateAVG(mTitle);
+                Log.d("HeartRateFargment", "heartRateAVG:" + heartRateAVG);
+                mResult.setText("持续时间："+mHeartRateDataList.size()+"秒，平均心率："+heartRateAVG+"次/分钟");
+
+
+            }
+            else {
+                mResult.setText("");
+            }
+
+
+
+
+
+
             mRenderer = getRenderer();
             graphicalView= ChartFactory.getLineChartView(context, getDataset(), mRenderer) ;
 
@@ -107,104 +167,19 @@ public class HeartRateFargment extends Fragment {
             e.printStackTrace();
         }
 
-
     }
     private XYMultipleSeriesDataset getDataset() {
 
-        List<HeartRateData> heartRateDataList = manager.findHeartRateDataByDate(mCurrentDate);
-
-        Log.d("HeartRateFargment", new Gson().toJson(heartRateDataList));
 
         XYMultipleSeriesDataset dataset = new XYMultipleSeriesDataset();
         XYSeries series = new XYSeries("");
 
 
-        if(heartRateDataList!=null){
-            if(heartRateDataList.size()>0){
-                for(HeartRateData heartRateData:heartRateDataList){
-                    int heartRate = heartRateData.getHeartRate();
-                    String time = heartRateData.getTime();
-                    switch (time){
-                        case "0":
-                        case "00":
-                            series .add(0,heartRate);
-                            break;
-                        case "01":
-                            series .add(1,heartRate);
-                            break;
-                        case "02":
-                            series .add(2,heartRate);
-                            break;
-                        case "03":
-                            series .add(3,heartRate);
-                            break;
-                        case "04":
-                            series .add(4,heartRate);
-                            break;
-                        case "05":
-                            series .add(5,heartRate);
-                            break;
-                        case "06":
-                            series .add(6,heartRate);
-                            break;
-                        case "07":
-                            series .add(7,heartRate);
-                            break;
-                        case "08":
-                            series .add(8,heartRate);
-                            break;
-                        case "09":
-                            series .add(9,heartRate);
-                            break;
-                        case "10":
-                            series .add(10,heartRate);
-                            break;
-                        case "11":
-                            series .add(11,heartRate);
-                            break;
-                        case "12":
-                            series .add(12,heartRate);
-                            break;
-                        case "13":
-                            series .add(13,heartRate);
-                            break;
-                        case "14":
-                            series .add(14,heartRate);
-                            break;
-                        case "15":
-                            series .add(15,heartRate);
-                            break;
-                        case "16":
-                            series .add(16,heartRate);
-                            break;
-                        case "17":
-                            series .add(17,heartRate);
-                            break;
-                        case "18":
-                            series .add(18,heartRate);
-                            break;
-                        case "19":
-                            series .add(19,heartRate);
-                            break;
-                        case "20":
-                            series .add(20,heartRate);
-                            break;
-                        case "21":
-                            series .add(21,heartRate);
-                            break;
-                        case "22":
-                            series .add(22,heartRate);
-                            break;
-                        case "23":
-                            series .add(23,heartRate);
-                            break;
+            if(mHeartRateDataList.size()>0){
 
-                    }
-
-
+                for(int i=0;i<mHeartRateDataList.size();i++){
+                    series .add(i, mHeartRateDataList.get(i).getHeartRate());
                 }
-
-            }
 
         }
 
@@ -239,7 +214,7 @@ public class HeartRateFargment extends Fragment {
     }
     private void setChartSettings(XYMultipleSeriesRenderer renderer) {
         renderer.setXAxisMin(0);// 设置X坐标轴起始点
-        renderer.setXAxisMax(24);// 设置X坐标轴最大值
+        renderer.setXAxisMax(mHeartRateDataList.size());// 设置X坐标轴最大值
         renderer.setYAxisMin(0);// 设置Y坐标轴起始点
         renderer.setYAxisMax(250);// 设置Y坐标轴最大值
         renderer.setApplyBackgroundColor(true);
@@ -259,7 +234,7 @@ public class HeartRateFargment extends Fragment {
         renderer.setLabelsTextSize(31); // 设置轴上标签的大小
         renderer.setAxesColor(0xff8e8e8e);//设置坐标轴颜色
         renderer.setBarSpacing(0.5);//设置间距
-        renderer.setMargins(new int[]{50, 50, 80, 0});////设置外边距，顺序为：上左下右
+        renderer.setMargins(new int[]{50, 50, 80, 50});////设置外边距，顺序为：上左下右
         renderer.setYLabelsAlign(Paint.Align.CENTER);//y轴 数字表示在坐标还是右边
         renderer .setPointSize(3) ;
 
@@ -271,16 +246,18 @@ public class HeartRateFargment extends Fragment {
         renderer.addYTextLabel(200, "200");
         renderer.addYTextLabel(250, "250");
 
-
         renderer.setXLabels(0); // 设置 X 轴不显示数字（改用我们手动添加的文字标签）
-        renderer.addXTextLabel(3, "3:00");
-        renderer.addXTextLabel(6, "6:00");
-        renderer.addXTextLabel(9, "9:00");
-        renderer.addXTextLabel(12, "12:00");
-        renderer.addXTextLabel(15, "15:00");
-        renderer.addXTextLabel(18, "18:00");
-        renderer.addXTextLabel(21, "21:00");
 
+        try {
+            if(mHeartRateDataList.size()>0){
+                int avg=(int) (mHeartRateDataList.size())/2;
+                renderer.addXTextLabel(avg, avg+"(S)");
+            }
+
+            renderer.addXTextLabel(mHeartRateDataList.size(), mHeartRateDataList.size()+"(S)");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 
     }

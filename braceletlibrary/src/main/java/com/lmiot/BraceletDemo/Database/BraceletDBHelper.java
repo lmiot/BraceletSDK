@@ -14,6 +14,7 @@ public class BraceletDBHelper extends SQLiteOpenHelper {
     //创建HeartRate表
     private static final String CREATE_TABLE_HEARTRATE="create table if not exists heartRateData " +
             "( sessionID VARCHAR(45)," +
+            "title VARCHAR(45)," +
             "date VARCHAR(45)," +
             "day_time VARCHAR(45)," +
             "heart_rate INTEGER)" ;

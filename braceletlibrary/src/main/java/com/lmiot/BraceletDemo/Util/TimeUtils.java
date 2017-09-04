@@ -50,13 +50,13 @@ public class TimeUtils {
     }
 
     public static String getCurrentTime() {
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss     ");
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd-HH:mm:ss");
         Date curDate = new Date(System.currentTimeMillis());//获取当前时间
         String time = formatter.format(curDate);
         return time;
     }
     public static String getHeartRateCurrentTime() {
-        SimpleDateFormat formatter = new SimpleDateFormat("HH");
+        SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
         Date curDate = new Date(System.currentTimeMillis());//获取当前时间
         String time = formatter.format(curDate);
         return time;

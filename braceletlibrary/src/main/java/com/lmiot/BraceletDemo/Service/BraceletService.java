@@ -16,7 +16,7 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.google.gson.Gson;
+import com.lmiot.BraceletDemo.Activity.HeartrRateActivity;
 import com.lmiot.BraceletDemo.Bean.HeartRateData;
 import com.lmiot.BraceletDemo.Database.BraceletDBManager;
 import com.lmiot.BraceletDemo.Util.BlueToothUtils;
@@ -225,7 +225,7 @@ public class BraceletService extends Service {
                         mIntent = new Intent();
                         mIntent.setAction("com.BraceletDemo.bracelet.success");
                         mIntent.putExtra("RateData",mRateData);
-                        SAveRateDate(mRateData);
+                        saverateDate(mRateData);
                         sendBroadcast(mIntent);
                     }
 
@@ -316,10 +316,10 @@ public class BraceletService extends Service {
 
 
     /**
-     * 保存心率数据到数据库:以小时为单位保存，具体精度可以自己根据实际修改
+     * 保存心率数据到数据库:以S为单位保存，具体精度可以自己根据实际修改
      * @param rateData
      */
-    private void SAveRateDate(String rateData) {
+    private void saverateDate(String rateData) {
 
         try {
             String substring = rateData.substring(8, 10);
@@ -328,33 +328,16 @@ public class BraceletService extends Service {
             String heartRateCurrentTime = TimeUtils.getHeartRateCurrentTime();
             String currentDate = TimeUtils.getCurrentDate();
 
-            //先查找当前时间（精确到小时）
-            HeartRateData heartRateDataByTimer = mBraceletDBManager.findHeartRateDataByTimer(currentDate,heartRateCurrentTime);
-            Log.d("BraceletService", new Gson().toJson(heartRateDataByTimer));
+            //先查找当前时间（精确到秒）
 
             if(nowRate!=0){ //心率为0不保存
-                if(heartRateDataByTimer.getTime()!=null){  //如果已存在，则保存平均值
-                    int oldRate = heartRateDataByTimer.getHeartRate();
-                    int saveRate=(int)((nowRate+oldRate)/2);
-
-                    HeartRateData heartRateData = new HeartRateData();
-                    heartRateData.setSessionID("");
-                    heartRateData.setDate(currentDate);
-                    heartRateData.setTime(heartRateCurrentTime);
-                    heartRateData.setHeartRate(saveRate);
-                    mBraceletDBManager.updateHeartRateDataInfo(heartRateData);
-
-                }
-                else {
-
-                    HeartRateData heartRateData = new HeartRateData();
-                    heartRateData.setSessionID("");
-                    heartRateData.setDate(currentDate);
-                    heartRateData.setTime(heartRateCurrentTime);
-                    heartRateData.setHeartRate(nowRate);
-                    mBraceletDBManager.saveHeartRateDataInfo(heartRateData);
-
-                }
+                HeartRateData heartRateData = new HeartRateData();
+                heartRateData.setSessionID("");
+                heartRateData.setTitle(HeartrRateActivity.mSaveTitle);
+                heartRateData.setDate(currentDate);
+                heartRateData.setTime(heartRateCurrentTime);
+                heartRateData.setHeartRate(nowRate);
+                mBraceletDBManager.saveHeartRateDataInfo(heartRateData);
             }
 
 

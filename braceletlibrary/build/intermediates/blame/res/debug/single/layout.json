@@ -1,79 +1,71 @@
 [
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\clockactivity.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\clockactivity.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_chose_title.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\dialog_chose_title.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pace_week.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_pace_week.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pace_month.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_pace_month.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\heart_ratingactivity.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\heart_ratingactivity.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\listitem_device.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fiftheen_dayfragment.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fiftheen_dayfragment.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\sunactivity.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\sunactivity.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\186e3f6bdf261624155ec1bf431ba84fb5ba6c8b\\output\\res\\layout\\dialog.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\thirty_dayfragment.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\thirty_dayfragment.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\trendactivity.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\trendactivity.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_consumption_week.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_consumption_week.xml"
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\item_title.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\item_title.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pace_day.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_pace_day.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_consumption_month.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_consumption_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth_scan.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\activity_bluetooth_scan.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\heart_rate_datail.xml",
@@ -84,60 +76,52 @@
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\choose_testactivity.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\sevenfragment.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\sevenfragment.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\title_layout.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\title_layout.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_month.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_sleep_month.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_week.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_sleep_week.xml"
-    },
-    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\tired_testactivity.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\tired_testactivity.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f0e663672bbbfb251c0863b72449221990216e5a\\output\\res\\layout\\dialog.xml"
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_week.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_sleep_week.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\detialactivity.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\detialactivity.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_day.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_sleep_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -148,8 +132,8 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pace_day.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_pace_day.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\goal_settinctivity.xml",
@@ -158,6 +142,330 @@
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_consumption_day.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_consumption_day.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\thirty_dayfragment.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\thirty_dayfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\trendactivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\trendactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tiredtestdetail.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\activity_tiredtestdetail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\clockactivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\clockactivity.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pace_month.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_pace_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\sunactivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\sunactivity.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth_scan.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\activity_bluetooth_scan.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_detailactivty.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\listitem_detailactivty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\heart_ratingactivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\heart_ratingactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\tired_testactivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\tired_testactivity.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\sevenfragment.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\sevenfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\choose_testactivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\choose_testactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_week.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_sleep_week.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\clockactivity.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\clockactivity.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\heart_rate_datail.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\heart_rate_datail.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\heart_ratingactivity.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\heart_ratingactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\moonactivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\moonactivity.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fiftheen_dayfragment.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fiftheen_dayfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\sunactivity.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\sunactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_consumption_week.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_consumption_week.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_heart_rate.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_heart_rate.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\goal_settinctivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\goal_settinctivity.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\detialactivity.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\detialactivity.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f0e663672bbbfb251c0863b72449221990216e5a\\output\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_day.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_sleep_day.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pace_day.xml",
+        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_pace_day.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tiredtestdetail.xml",
@@ -176,28 +484,36 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\thirty_dayfragment.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\thirty_dayfragment.xml"
-    },
-    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_consumption_day.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_consumption_day.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_month.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_sleep_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_detailactivty.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\listitem_detailactivty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_consumption_week.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\fragment_consumption_week.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\moonactivity.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\moonactivity.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
@@ -208,52 +524,28 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth_scan.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\activity_bluetooth_scan.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_detailactivty.xml",
-        "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\listitem_detailactivty.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\title_layout.xml",
         "source": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\src\\main\\res\\layout\\title_layout.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pace_week.xml",
@@ -264,16 +556,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "C:\\Users\\Administrator.SKY-20170826DHO\\Desktop\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator.SKY-20170826DHO\\.android\\build-cache\\660ab6493a87e2fcfec879434dde68090e48b906\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f37078190da885c78c3a31ff333c510cb5ab6db6\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "D:\\MySVN\\02sourcecode\\app\\android\\bluemedia\\BraceletSDK\\braceletlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_heart_rate.xml",

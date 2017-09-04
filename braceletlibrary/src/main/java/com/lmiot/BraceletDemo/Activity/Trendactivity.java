@@ -1,12 +1,17 @@
 package com.lmiot.BraceletDemo.Activity;
 
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.DatePicker;
+import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -17,6 +22,7 @@ import com.lmiot.BraceletDemo.Bean.SportDataInfo;
 import com.lmiot.BraceletDemo.R;
 import com.lmiot.BraceletDemo.Util.SPUtil;
 import com.lmiot.BraceletDemo.Util.TimeUtils;
+import com.lmiot.BraceletDemo.Util.ToastUtil;
 import com.lmiot.BraceletDemo.fragments.ConsumptionDayFragment;
 import com.lmiot.BraceletDemo.fragments.ConsumptionMonthFragment;
 import com.lmiot.BraceletDemo.fragments.ConsumptionWeekFragment;
@@ -57,6 +63,7 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
     private LinearLayout mMainLayout;
     private LinearLayout mHeartRateLayout;
     private HeartRateFargment mHeartRateFargment;
+    private AlertDialog mAlertDialog;
 
 
     @Override
@@ -95,7 +102,7 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
         mIdIvTrendatMooth = (RadioButton) findViewById(R.id.id_iv_trendat_mooth);
 
         mIdTitle.setText("趋势");
-        mIdNowDay.setText(TimeUtils.getCurrentDate());
+
 
         mIdNowDay.setOnClickListener(this);
 
@@ -155,6 +162,7 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
                                 mIdVpTrendat.setCurrentItem(0);
                                 ChangeBottomIcon();
                                 mIdHeartRate.setChecked(true);
+
                                 break;
                             case 1:
                                 mMainLayout.setVisibility(View.VISIBLE);
@@ -358,8 +366,8 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
             mIdVpTrendat.setCurrentItem(7);
 
         }
-        else if (i == R.id.id_now_day) {//睡眠
-            showHistory();
+        else if (i == R.id.id_now_day) {//查看历史数据
+           showHistory();
 
         }
     }
@@ -368,25 +376,90 @@ public class Trendactivity extends AppCompatActivity implements View.OnClickList
      * 获取历史数据
      */
     private void showHistory() {
+        String titleNow = mHeartRateFargment.getTitle();
+        List<String> allHeartRateTitle = mHeartRateFargment.getAllHeartRateTitle();
+        if(allHeartRateTitle==null){
+            ToastUtil.ToastMessage(Trendactivity.this,"数据为空！");
+            return;
+        }
+        else{
 
-        Calendar calendar = Calendar.getInstance();
-        new DatePickerDialog(Trendactivity.this, new DatePickerDialog.OnDateSetListener() {
+            View view=View.inflate(Trendactivity.this,R.layout.dialog_chose_title,null);
+            ListView listView=view.findViewById(R.id.id_listview);
+
+            TitleAdapter titleAdapter = new TitleAdapter(titleNow, allHeartRateTitle);
+            listView.setAdapter(titleAdapter);
+
+            mAlertDialog = new AlertDialog.Builder(Trendactivity.this)
+                    .setView(view)
+                    .show();
 
 
-            @Override
-            public void onDateSet(DatePicker view, int year, int month, int day) {
-                // TODO Auto-generated method stub
-                int mMonth = month + 1;
-                int mDay = day;
-                final String bydate = year + "-" + mMonth + "-" + mDay;
-                mIdNowDay.setText(bydate);
-                mHeartRateFargment.setCurrentDate(bydate);
-                mHeartRateFargment.initView(mHeartRateFargment.getViewSave());
+        }
 
+
+
+    }
+
+    private class TitleAdapter extends BaseAdapter{
+
+        String titleNow;
+        List<String> allHeartRateTitle;
+
+        public TitleAdapter(String titleNow, List<String> allHeartRateTitle) {
+            this.titleNow = titleNow;
+            this.allHeartRateTitle = allHeartRateTitle;
+        }
+
+        @Override
+        public int getCount() {
+            return allHeartRateTitle.size();
+        }
+
+        @Override
+        public Object getItem(int i) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int i, View view, ViewGroup viewGroup) {
+            View v=View.inflate(Trendactivity.this,R.layout.item_title,null);
+            TextView titleText=v.findViewById(R.id.id_title);
+            ImageView img=v.findViewById(R.id.id_check_img);
+
+            final String title = allHeartRateTitle.get(i);
+            titleText.setText(title);
+
+
+            if(!TextUtils.isEmpty(titleNow)){
+                if(title.equals(titleNow)){
+                    img.setVisibility(View.VISIBLE);
+                }
             }
-        },
-                calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
-                calendar.get(Calendar.DAY_OF_MONTH)).show();
+
+             v.setOnClickListener(new View.OnClickListener() {
+                 @Override
+                 public void onClick(View view) {
+                     mIdNowDay.setText(title);
+                     mHeartRateFargment.setTitle(title);
+                     mHeartRateFargment.initView(mHeartRateFargment.getViewSave());
+
+                     mAlertDialog.dismiss();
+
+                 }
+             });
+
+            return v;
+        }
+    }
+
+    public  void setTitle(String value){
+        mIdNowDay.setText(value);
     }
 
 }
